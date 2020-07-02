@@ -14,184 +14,203 @@
 
 get_header();
 ?>
-    <div id="fullpage">
-        <div class="section fa-section_1" id="section1">
-            <div class="fa-section_1_content">
-                <div class="fa-slogan">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/logo/logo-gold.png" alt="logo gold">
-                    <p>- Nơi xúc cảm rạng ngời</p>
-                </div>
-                <div class="fa-description">
-                    <span>Lấy cảm hứng từ vẻ đẹp hùng vĩ của ngọn hải đăng Kê Gà,</span>
-                    <span>The Farosea như một biểu tượng kiến trúc đặc sắc giữa thiên nhiên kỳ vĩ.</span>
-                </div>
-            </div>
-        </div>
-        <div class="section fa-section_2" id="section2">
-            <div class="container-fluid fa-container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img class="w-100" src="<?php echo get_template_directory_uri() ?>/img/home/banner-2.png" alt="banner 2">
-                    </div>
-                    <div class="col-md-6">
-                        <div class="fa-slogan">
-                            <h4>NGỌN HẢI ĐĂNG</h4>
-                            <img src="<?php echo get_template_directory_uri() ?>/img/home/kieu-hanh.png"
-                                 alt="kieu hanh">
-                            <h4>GIỮA THỦ PHỦ RESORT MỚI</h4>
-                        </div>
-                        <p class="description">Lấy cảm hứng từ vẻ đẹp hùng vĩ của ngọn hải đăng Kê Gà, Farosea như một biểu tượng kiến trúc trường tồn giữa thiên nhiên hùng vĩ. Taị the Farosea, mỗi sớm mai thức dậy, du khách mới ngắm trọn vẹn ánh dương rạng ngời, vẻ đẹp thiên nhiên tuyệt mỹ của vịnh Kê Gà.</p>
-                        <a href="#" class="see-more">Tìm hiểu thêm</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section fa-section_3" id="section3">
-            <div class="container-fluid fa-container">
-                <div class="introduce">
-                    <h3>GIỚI THIỆU DỰ ÁN</h3>
-                    <h5>TỔNG QUAN DỰ ÁN</h5>
-                    <p>The Farosea nằm trong quần thể du lịch nghỉ dưỡng hiện hữu thu hút nhiều du khách.
-                        Dự án đươc quy hoạch theo phong cách phóng khoáng, hiện đại. Bên cạnh đó, bãi tắm hoàn toàn riêng tư,
-                    khép kín chỉ dành phục vụ cho cư dân và du khách nội khu là đặc quyền mà Farosa dành tặng những chủ nhân tương lai.</p>
-                </div>
-            </div>
-        </div>
-        <div class="section fa-section_4" id="section4">
-            <div class="container-fluid fa-container">
-                <div class="fa-slogan">
-                    <h4>TÂM ĐIỂM</h4>
-                    <img src="<?php echo get_template_directory_uri() ?>/img/home/vang.png"
-                         alt="vang">
-                    <h4>KẾT NỐI DANH LAM</h4>
-                </div>
-                <p class="description">The Farosea tọa lạc ngay mặt tiền ĐT 719 – tuyến đường ven biển Quốc gia đẹp nhất Việt Nam. Đặc biệt, với vị trí nằm trong tâm điểm vùng du lịch và giữa các quần thể nghỉ dưỡng cao cấp, The Farosea chính là “điểm nối liên hoàn” các thắng cảnh du lịch nổi tiếng của Kê Gà và Bình Thuận.</p>
-            </div>
-        </div>
-        <div class="section fa-section_5" id="section5">
-            <div class="utilities">
-                <div class="container-fluid fa-container">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="logo">
-                                <img src="<?php echo get_template_directory_uri() ?>/img/logo/logo-gold.png" alt="logo gold">
-                            </div>
-                            <div class="pool-view">
-                                <img class="w-100" src="<?php echo get_template_directory_uri() ?>/img/home/poolview.png" alt="poolview">
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="fa-slogan">
-                                <h4>TIỆN ÍCH HOÀN MỸ</h4>
-                                <img src="<?php echo get_template_directory_uri() ?>/img/home/thang-hoa.png"
-                                     alt="vang">
-                                <h4>CẢM XÚC</h4>
-                            </div>
-                            <p class="description">The Farosea được xây dựng trong tổ hợp nghỉ dưỡng ven biển đẳng cấp, dành cho chủ nhân xứng tầm.
-                                Trọn vẹn tận hưởng kỳ nghỉ dưỡng trong không gian xanh mát của vùng biển hài hòa và được trải nghiệm các dịch vụ chăm sóc, giải trí theo tiêu chuẩn 5 sao.</p>
-                            <a href="#" class="see-more">Tìm hiểu thêm</a>
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/img/home/poolview-2.png" alt="poolview">
-                        </div>
-                    </div>
-                </div>
-                <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-13.82,-1.47 C319.69,64.63 316.87,86.34 534.71,-11.34 L521.72,-30.09 L-11.00,-21.20 Z" style="stroke: none; fill: #006838;"></path></svg></div>
-            </div>
-            <div class="architecture">
-                <div class="container-fluid fa-container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="fa-slogan">
-                                <h4>KIẾN TRÚC</h4>
-                                <img src="<?php echo get_template_directory_uri() ?>/img/home/xanh.png"
-                                     alt="vang">
-                                <h4>ĐỘC ĐÁO</h4>
-                            </div>
-                            <div class="description">
-                                <p>Tất cả căn hộ tại The Farosea đều được thiết kế có góc nhìn trọn ra biển, ngập tràn ánh sáng thiên nhiên và gió trời. Đây là điểm nhấn độc đáo khó có nơi nào sánh bằng.</p>
-                                <p>Hệ thống cửa sổ và ban công rộng thoáng, tầng cao căn hộ nâng lên đến 10m giúp gia chủ thu trọn vào tầm mắt ánh dương rạng ngời, tận hưởng vẻ đẹp tuyệt mỹ của bức tranh sơn thủy hữu tình nơi biển trời khoáng đạt.</p>
-                                <p>Bên cạnh đó các mảng xanh được bố trí tinh tế và khoa học phủ mọi tầng cao mang đến cảm giác thư thái, dễ chịu, giao hòa cùng thiên nhiên. </p>
-                            </div>
-                        </div>
-                        <div class="col-md-8">
+    <div id="menu-center" class="sliderpage">
+        <ul>
+            <li><a href="#video-sc" class="active"><span></span></a></li>
+            <li><a href="#kieuhanh"><span></span></a></li>
+            <li><a href="#tongquan"><span></span></a></li>
+            <li><a href="#vang"><span></span></a></li>
+            <li><a href="#thanghoa"><span></span></a></li>
+            <li><a href="#xanh"><span></span></a></li>
+            <li><a href="#thongminh"><span></span></a></li>
+            <li><a href="#news-sc"><span></span></a></li>
+            <li><a href="#footer-sc"><span></span></a></li>
+        </ul>
+    </div>
 
-                        </div>
-                    </div>
-                </div>
+    <div class="section hp-video wow fadeIn" data-wow-delay="0.3s" id="video-sc">
+        <video id="video-viewport" poster="/vcommon/top/video/video_firstframe.jpg" autoplay loop muted controls fullscreen>
+            <source src="<?php echo get_template_directory_uri() ?>/images/farosea.mp4" type="video/mp4">
+            <source src="<?php echo get_template_directory_uri() ?>/images/farosea.ogv" type="video/ogg">
+            <source src="<?php echo get_template_directory_uri() ?>/images/farosea.webm" type="video/webm">
+        </video>
+        <div class="note-banner wow fadeInRight" data-wow-delay="0.5s">
+            <img src="<?php echo get_template_directory_uri() ?>/images/note-banner.png" alt="" />
+        </div>
+    </div>
+
+    <div class="section main-05" id="kieuhanh">
+        <div class="ShowBan-kieuhanh">
+            <div class="title-01 tt-kieuhanh wow fadeInUp" data-wow-delay="0.3s">
+                <p>Ngọn hải đăng</p>
+                <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/kieuhanh-vn.png" alt="" /></a>
+                <p>GIỮA THỦ PHỦ RESORT MỚI</p>
+            </div>
+            <div class="ctent-01 ct-kieuhanh wow fadeInUp" data-wow-delay="0.5s">
+                <p>Lấy cảm hứng từ vẻ đẹp hùng vĩ của ngọn hải đăng Kê Gà, Farosea như một biểu tượng kiến trúc trường tồn giữa thiên nhiên hùng vĩ. Taị the Farosea, mỗi sớm mai thức dậy, du khách mới ngắm trọn vẹn ánh dương rạng ngời, vẻ đẹp thiên nhiên tuyệt mỹ của vịnh Kê Gà.</p>
+                <a href="#">Tìm hiểu thêm</a>
             </div>
         </div>
-        <div class="section fa-section_7" id="section7">
-            <div class="container-fluid fa-container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <img src="<?php echo get_template_directory_uri() ?>/img/home/phone-screen-1.png" alt="phone">
-                            <img src="<?php echo get_template_directory_uri() ?>/img/home/appstore.png" alt="phone">
-                            <img src="<?php echo get_template_directory_uri() ?>/img/home/phone-screen-2.png" alt="phone">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="fa-slogan">
-                            <h4>QUẢN LÝ TÀI SẢN</h4>
-                            <img src="<?php echo get_template_directory_uri() ?>/img/home/vang.png"
-                                 alt="vang">
-                        </div>
-                        <p>Tại Farosea Resort, công nghệ tiên tiến được ứng dụng nhằm mang lại sự minh bạch thông tin, hiệu quả trong quản lý tài sản và thuận ích tối đa.</p>
-                        <p>Với ứng dụng di động được thiết kế đặc biệt kết nối trực tiếp với chủ đầu tư, khách hàng có thể:</p>
-                        <ul class="row">
-                            <li class="col-md-4">
-                                Theo dõi tức thời hiệu quảkhai thác: tỉ lệ khai thác, lợi nhuận.
-                            </li>
-                            <li class="col-md-4">
-                                Cập nhật nhanh hóng thông tin dự án: pháp lý, tiến độ xây dựng, tiến độ thanh toán.
-                            </li>
-                            <li class="col-md-4">
-                                Tương tác trực tiếp với chủ đầu tư: nhận thông báo, hỏi đáp.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <div class="img-kieuhanh wow fadeInRight" data-wow-delay="0.4s">
+            <img src="<?php echo get_template_directory_uri() ?>/images/ban1-1.jpg" />
         </div>
-        <div class="section fa-section_8" id="section8">
-            <div class="container-fluid fa-container">
-                <div class="news">
-                    <h3>TIN TỨC</h3>
+    </div>
+
+    <div class="section main-01" id="tongquan">
+        <div class="ban1">
+            <div class="ShowBan-01 wow fadeInUp" data-wow-delay="0.5s">
+                <img class="img-position-a" src="<?php echo get_template_directory_uri() ?>/images/ban2.jpg" alt="">
+                <div class="opacity-b50"></div>
+                <div class="container-full">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="news-item">
-                                <a href="#" class="img-cover">
-                                    <img src="<?php echo get_template_directory_uri() ?>/img/home/news-1.png" alt="news">
-                                </a>
-                                <h5 class="news-title">
-                                    <a href="#">Tâm điểm vàng tham quan dự án</a>
-                                    <span>01/01/2020</span>
-                                </h5>
-                                <a href="#" class="see-more">Chi tiết -</a>
+                        <div class="col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="title-02 tt-duan">
+                                <p>GIỚI THIỆU DỰ ÁN</p>
+                                <span>TỔNG QUAN DỰ ÁN</span>
+                            </div>
+                            <div class="ctent-01 ct-duan">
+                                <p>The Farosea nằm trong quần thể du lịch nghỉ dưỡng hiện hữu thu hút nhiều du khách.</p>
+                                <p>&nbsp;</p>
+                                <p>Dự án đươc quy hoạch theo phong cách phóng khoáng, hiện đại. Bên cạnh đó, bãi tắm hoàn toàn riêng tư, khép kín chỉ dành phục vụ cho cư dân và du khách nội khu là đặc quyền mà Farosa dành tặng những chủ nhân tương lai.</p>
+                                <a class="ct-title" href="<?php echo home_url()?>/gioi-thieu">Tìm hiểu thêm</a>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="news-top-right">
-                                <a href="#" class="img-cover">
-                                    <img src="<?php echo get_template_directory_uri() ?>/img/home/news-2.png" alt="news">
-                                </a>
-                                <div class="content">
-                                    <div>
-                                        <h5 class="news-title"><a href="#">Tâm điểm vàng tham quan dự án</a></h5>
-                                        <a href="#" class="see-more">Chi tiết -</a>
-                                    </div>
-                                    <span>01/01/2020</span>
-                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section main-04" id="vang">
+        <div class="ShowBan-tongquan">
+            <div class="title-01 tt-vang wow fadeInUp" data-wow-delay="0.3s">
+                <p>Tâm điểm</p>
+                <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/vang-vn.png" alt="" /></a>
+                <p>Kết nối danh lam</p>
+            </div>
+            <div class="ctent-01 ct-vang wow fadeInUp" data-wow-delay="0.5s">
+                <p>The Farosea tọa lạc ngay mặt tiền ĐT 719 – tuyến đường ven biển Quốc gia đẹp nhất Việt Nam. Đặc biệt, với vị trí nằm trong tâm điểm vùng du lịch và giữa các quần thể nghỉ dưỡng cao cấp, The Farosea chính là “điểm nối liên hoàn” các thắng cảnh du lịch nổi tiếng của Kê Gà và Bình Thuận. </p>
+                <a class="ct-title" href="<?php echo home_url()?>/vi-tri">Tìm hiểu thêm</a>
+            </div>
+        </div>
+        <div class="img-tongquan wow fadeInRight" data-wow-delay="0.4s">
+            <img src="<?php echo get_template_directory_uri() ?>/images/ban3-1.jpg" />
+        </div>
+    </div>
+
+    <div class="section main-02" id="thanghoa">
+        <div class="ShowBan-02">
+            <div class="container-full">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="pks1 wow fadeInLeft" data-wow-delay="0.5s">
+                            <img src="<?php echo get_template_directory_uri() ?>/images/pk1.png">
+                        </div>
+                        <div class="pks2 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="title-01 tt-thanghoa">
+                                <p>Tiện ích hoàn mỹ</p>
+                                <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/thanghoa-vn.png" alt="" /></a>
+                                <p>Cảm xúc</p>
                             </div>
-                            <div class="news-bottom-right">
-                                <div class="news-item">
-                                    <a href="#" class="img-cover">
-                                        <img src="<?php echo get_template_directory_uri() ?>/img/home/news-1.png" alt="news">
-                                    </a>
-                                    <h5 class="news-title">
-                                        <a href="#">Tâm điểm vàng tham quan dự án</a>
-                                        <span>01/01/2020</span>
-                                    </h5>
-                                    <a href="#" class="see-more">Chi tiết -</a>
+                            <div class="ctent-01 ct-thanghoa">
+                                <p>The Farosea được xây dựng trong tổ hợp nghỉ dưỡng ven biển đẳng cấp, dành cho chủ nhân xứng tầm.</p>
+                                <p>&nbsp;</p>
+                                <p>Trọn vẹn tận hưởng kỳ nghỉ dưỡng trong không gian xanh mát của vùng biển hài hòa và được trải nghiệm các dịch vụ chăm sóc, giải trí theo tiêu chuẩn 5 sao.</p>
+                                <a href="#">Tìm hiểu thêm</a>
+                            </div>
+                            <div class="pks">
+                                <img src="<?php echo get_template_directory_uri() ?>/images/pk2.png" style="width: 100%; float: left; margin-top: 20px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="chan01"><img src="<?php echo get_template_directory_uri() ?>/images/chan01.png" alt="" /></div>
+
+    <div class="section main-01" id="xanh">
+        <div class="ban1" data-stellar-background-ratio="0.5" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/ban5.jpg);">
+            <div class="ShowBan-04 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="opacity-b50"></div>
+                <div class="container-full">
+                    <div class="row">
+                        <div class="div-xanh">
+                            <div class="title-01 tt-xanh">
+                                <p>KIẾN TRÚC</p>
+                                <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/xanh-vn.png" alt="" /></a>
+                                <p>Độc đáo</p>
+                            </div>
+                            <div class="ctent-01 ct-xanh">
+                                <p>Tất cả căn hộ tại The Farosea đều được thiết kế có góc nhìn trọn ra biển, ngập tràn ánh sáng thiên nhiên và gió trời. Đây là điểm nhấn độc đáo khó có nơi nào sánh bằng.</p>
+                                <p>&nbsp;</p>
+                                <p>Hệ thống cửa sổ và ban công rộng thoáng, tầng cao căn hộ nâng lên đến 10m giúp gia chủ thu trọn vào tầm mắt ánh dương rạng ngời, tận hưởng vẻ đẹp tuyệt mỹ của bức tranh sơn thủy hữu tình nơi biển trời khoáng đạt.</p>
+                                <p>&nbsp;</p>
+                                <p>Bên cạnh đó các mảng xanh được bố trí tinh tế và khoa học phủ mọi tầng cao mang đến cảm giác thư thái, dễ chịu, giao hòa cùng thiên nhiên.</p>
+                            </div>
+                        </div>
+                        <div class="architecture section animatedParent">
+                            <div class="cards-content">
+                                <div class="cards-list tab-content animated fadeIn delay-100">
+                                    <div id="card-apartment-1" class="tab-pane fade in active tab-padding">
+                                        <div class="cards-list-item">
+
+                                            <a href="#" class="card-item card-item-01" style="background-image:url(<?php echo get_template_directory_uri() ?>/vila/phoicanh-1-1.png)" data-hover-img="
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-1-1.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-1-2.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-1-3.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-1-4.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-1-5.png, ">
+                                                <h5>Căn 2B</h5>
+                                                <div><h4>31.58 m2</h4></div>
+                                                <img class="hover-slide-img" src="<?php echo get_template_directory_uri() ?>/vila/phoicanh-1-1.png">
+                                            </a>
+
+                                            <a href="#" class="card-item card-item-02" style="background-image:url(<?php echo get_template_directory_uri() ?>/vila/phoicanh-2-2.png)" data-hover-img="
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-2-1.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-2-2.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-2-3.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-2-4.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-2-5.png, ">
+                                                <h5>Căn 2C</h5>
+                                                <div><h4>35.81 m2</h4></div>
+                                                <img class="hover-slide-img" src="<?php echo get_template_directory_uri() ?>/vila/phoicanh-2-2.png">
+                                            </a>
+
+                                            <a href="#" class="card-item card-item-03" style="background-image:url(<?php echo get_template_directory_uri() ?>/vila/phoicanh-3-3.png)" data-hover-img="
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-3-1.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-3-2.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-3-3.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-3-4.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-3-5.png, ">
+                                                <h5>Căn 2D</h5>
+                                                <div><h4>40.56 m2</h4></div>
+                                                <img class="hover-slide-img" src="<?php echo get_template_directory_uri() ?>/vila/phoicanh-3-3.png">
+                                            </a>
+
+                                            <a href="#" class="card-item card-item-02" style="background-image:url(<?php echo get_template_directory_uri() ?>/vila/phoicanh-4-4.png)" data-hover-img="
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-4-1.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-4-2.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-4-3.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-4-4.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-4-5.png, ">
+                                                <h5>Căn 2E</h5>
+                                                <div><h4>57.54 m2</h4></div>
+                                                <img class="hover-slide-img" src="<?php echo get_template_directory_uri() ?>/vila/phoicanh-4-4.png">
+                                            </a>
+
+                                            <a href="#" class="card-item card-item-01" style="background-image:url(<?php echo get_template_directory_uri() ?>/vila/phoicanh-5-5.png)" data-hover-img="
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-5-1.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-5-2.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-5-3.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-5-4.png,
+                                            <?php echo get_template_directory_uri() ?>/vila/phoicanh-5-5.png, ">
+                                                <h5>Căn 2F</h5>
+                                                <div><h4>96.14 m2</h4></div>
+                                                <img class="hover-slide-img" src="<?php echo get_template_directory_uri() ?>/vila/phoicanh-5-5.png">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -199,53 +218,92 @@ get_header();
                 </div>
             </div>
         </div>
-        <div class="section fa-section_9" id="section9">
-            <div class="container-fluid fa-container">
-                <div class="logo-foot">
-                    <a href="#">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/logo/logo-white.png" alt="logo white">
-                    </a>
-                </div>
-                <h3 class="border-bot">CÔNG TY CỔ PHẦN DỊCH VỤ BẤT ĐỘNG SẢN F.HOUSE</h3>
-                <div class="address border-bot">
-                    <p>149 đường 19, phường An Phú, Quận 2, TP HCM</p>
-                    <p>028 225 36 229 - 0933 209 777</p>
-                    <p>cskh@fhouse.vn</p>
-                    <p>Tax: 0314757986</p>
-                </div>
-                <div class="address-project">
-                    <p>Địa chỉ dự án The Farose: Xã Thuận Quý, huyện Hàm Thuận Nam, Bình Thuận</p>
-                    <p>Website: www.farosea.vn</p>
-                    <p>Hotline:</p>
-                </div>
-                <div class="supplier row">
-                    <div class="col-md-2">
-                        <h5>CHỦ ĐẦU TƯ</h5>
-                        <img src="<?php echo get_template_directory_uri() ?>/img/logo/logo-1.png" alt="logo">
+    </div>
+
+    <div class="section main-03" id="thongminh">
+        <div class="ShowBan-03">
+            <div class="container-full">
+                <div class="row">
+                    <div class="col-md-7 col-sm-12 col-xs-12">
+                        <div class="ig-thongminh wow fadeInLeft" data-wow-delay="0.5s">
+                            <img src="<?php echo get_template_directory_uri() ?>/images/app.png">
+                        </div>
                     </div>
-                    <div class="col-md-2">
-                        <h5>ĐƠN VỊ PHÁT TRIỂN</h5>
-                        <img src="<?php echo get_template_directory_uri() ?>/img/logo/logo-2.png" alt="logo">
-                    </div>
-                    <div class="col-md-2">
-                        <h5>THIẾT KẾ KIẾN TRÚC</h5>
-                        <img src="<?php echo get_template_directory_uri() ?>/img/logo/logo-3.png" alt="logo">
-                    </div>
-                    <div class="col-md-2">
-                        <h5>QUẢN LÍ VẬN HÀNH</h5>
-                        <img src="<?php echo get_template_directory_uri() ?>/img/logo/logo-4.png" alt="logo">
-                    </div>
-                    <div class="col-md-2">
-                        <h5>BẢO LÃNH DỰA ÁN</h5>
-                        <img src="<?php echo get_template_directory_uri() ?>/img/logo/logo-5.png" alt="logo">
-                    </div>
-                    <div class="col-md-2">
-                        <h5>TIẾP THỊ VÀ PHÂN PHỐI</h5>
-                        <img src="<?php echo get_template_directory_uri() ?>/img/logo/logo-1.png" alt="logo">
+                    <div class="col-md-5 col-sm-12 col-xs-12 wow fadeInRight" data-wow-delay="0.5s">
+                        <div class="title-01 tt-thongminh">
+                            <p>Quản lý tài sản</p>
+                            <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/thongminh-vn.png" alt="" /></a>
+                        </div>
+                        <div class="ctent-01 ct-thongminh">
+                            <p>Tại Farosea Resort, công nghệ tiên tiến được ứng dụng nhằm mang lại sự minh bạch thông tin, hiệu quả trong quản lý tài sản và thuận ích tối đa.</p>
+                            <p>&nbsp;</p>
+                            <p>Với ứng dụng di động được thiết kế đặc biệt kết nối trực tiếp với chủ đầu tư, khách hàng có thể:</p>
+                        </div>
+                        <div class="ctent-02">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <p class="nt-thongminh">Theo dõi tức thời hiệu quảkhai thác: tỉ lệ khai thác, lợi nhuận.</p>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <p class="nt-thongminh">Cập nhật nhanh hóng thông tin dự án: pháp lý, tiến độ xây dựng, tiến độ thanh toán.</p>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <p class="nt-thongminh">Tương tác trực tiếp với chủ đầu tư: nhận thông báo, hỏi đáp.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="note">
-                    <p>(*) Chúng tôi đặc biệt cẩn trọng trong việc chuẩn bị nội dung trên website này. Các thông tin/hình ảnh/bản vẽ chỉ thể hiện thông số kỹ thuật, tính thẩm mỹ và sự sáng tạo tại thời điểm được đăng tải và mang tính chất tham khảo, không đại diện chính xác cho điều kiện xây dựng thực tế và không mang tính đại diện hay là một phần của hợp đồng.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-01" id="news-sc">
+        <div class="ban1" data-stellar-background-ratio="0.5" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/ban6.jpg); background-position: 0px -94.2812px;">
+            <div class="ShowBan-01">
+                <div class="opacity-b50"></div>
+                <div class="container-footer">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="title-03 wow fadeInDown" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
+                                <span>Tin tức</span>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="news-home">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12 col-xs-12">
+                                        <div class="boxnews-h boxnews-h1 wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                                            <a class="pic" href="#"><img src="<?php echo get_template_directory_uri() ?>/images/n1.jpg" alt=""></a>
+                                            <div class="tit-view">
+                                                <a class="tit" href="#">Tâm điểm vàng tham quan dự án</a>
+                                                <a class="view" href="#">Chi tiết -</a>
+                                            </div>
+                                            <span>01/01/2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 col-xs-12">
+                                        <div class="boxnews-h boxnews-h2 wow fadeInRight" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                                            <a class="pic" href="#"><img src="<?php echo get_template_directory_uri() ?>/images/n2.jpg" alt=""></a>
+                                            <div class="tit-view">
+                                                <a class="tit" href="#">Tâm điểm vàng tham quan dự án</a>
+                                                <a class="view" href="#">Chi tiết -</a>
+                                            </div>
+                                            <span>01/01/2020</span>
+                                        </div>
+                                        <div class="boxnews-h boxnews-h3 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                            <a class="pic" href="#"><img src="<?php echo get_template_directory_uri() ?>/images/n3.jpg" alt=""></a>
+                                            <div class="tit-view">
+                                                <a class="tit" href="#">Tâm điểm vàng tham quan dự án</a>
+                                                <a class="view" href="#">Chi tiết -</a>
+                                            </div>
+                                            <span>01/01/2020</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

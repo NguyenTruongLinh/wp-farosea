@@ -17,63 +17,61 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
-<!--	--><?php //wp_head(); ?>
+	<?php wp_head(); ?>
 
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/js/vendor/full-page/fullpage.min.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/all.min.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/main.css">
+    <!-- Load Roboto font -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <!-- Load css styles -->
+
+    <!-- Bootstrap --------------------------------------------------------------------------->
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/css/bootstrap.css" />                  <!---->
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/css/bootstrap-responsive.css" />       <!---->
+    <!---------------------------------------------------------------------------------------->
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/js/fullpage/fullpage.min.css" />       <!---->
+
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/css/style.css" />
+
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/images/ico/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="fa-header_section">
-        <div class="container-fluid">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="fa-header_phone">
-                    <a href="#"><i class="far fa-phone-alt"></i></a>
-                </div>
-                <div class="fa-header_logo">
-                    <a href="#">
-                        <img src="<?php echo get_template_directory_uri() ?>/img/logo/logo.png" alt="logo">
-                    </a>
-                </div>
-                <div class="fa-header_navbar">
-                    <a href="#"><i class="far fa-bars"></i></a>
-                </div>
-            </div>
+
+    <nav class="header">
+        <div class="logo"><a href="<?php echo home_url() ?>"><img src="<?php echo get_template_directory_uri() ?>/images/logo.png" alt="LaPhong" /></a></div>
+        <div class="call-phone">
+            <a href="tel:"><img src="<?php echo get_template_directory_uri() ?>/images/call-phone.png" alt="" /></a>
         </div>
-        <div class="fa-header_menu">
-            <a href="#" class="fa-close_menu"><i class="far fa-times-circle"></i></a>
-            <img class="logo-menu" src="<?php echo get_template_directory_uri() ?>/img/logo/logo-menu.png" alt="logo menu">
-            <ul class="fa-header_menu_list">
-                <li class="fa-header_menu_item">
-                    <a href="#">Trang chủ</a>
-                </li>
-                <li class="fa-header_menu_item">
-                    <a href="#">Giới thiệu</a>
-                </li>
-                <li class="fa-header_menu_item">
-                    <a href="#">Câu chuyện dự án</a>
-                </li>
-                <li class="fa-header_menu_item">
-                    <a href="#">Vị trí</a>
-                </li>
-                <li class="fa-header_menu_item">
-                    <a href="#">Tiện ích</a>
-                </li>
-                <li class="fa-header_menu_item">
-                    <a href="#">Mặt bằng</a>
-                </li>
-                <li class="fa-header_menu_item">
-                    <a href="#">Thư viện</a>
-                </li>
-                <li class="fa-header_menu_item">
-                    <a href="#">Tin tức</a>
-                </li>
-                <li class="fa-header_menu_item">
-                    <a href="#">Liên hệ</a>
-                </li>
+        <div class="language">
+            <ul>
+                <li class="vn active"><a href="#">VN</a></li>
+                <li class="en"><a href="#">EN</a></li>
             </ul>
         </div>
-    </div>
-
+        <div id="myNav" class="overlay">
+            <div class="logo-menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="<?php echo home_url() ?>">Trang chủ</a>
+                    <a href="<?php echo home_url() ?>/gioi-thieu">Giới thiệu</a>
+                    <a href="<?php echo home_url() ?>/cau-chuyen-du-an">Câu chuyện dự án</a>
+                    <a href="<?php echo home_url() ?>/vi-tri">Vị trí</a>
+                    <a href="<?php echo home_url() ?>/tien-ich">Tiện ích</a>
+                    <a href="<?php echo home_url() ?>/mat-bang">Mặt bằng</a>
+                    <a href="<?php echo home_url() ?>/thu-vien">Thư viện</a>
+                    <a href="<?php echo home_url() ?>/tin-tuc">Tin tức</a>
+                    <a href="<?php echo home_url() ?>/lien-he">Liên hệ</a>
+                </div>
+            </div>
+            <div class="follow-menu">
+                <ul>
+                    <li><a class="" href="#"><img src="<?php echo get_template_directory_uri() ?>/images/nhantin.png"></a></li>
+                    <li><div class="g-doc"></div></li>
+                    <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/face-1.png"></a></li>
+                    <li><div class="g-ngang"></div></li>
+                    <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/tube-1.png"></a></li>
+                </ul>
+            </div>
+        </div>
+        <span class="mNav" onclick="openNav()">&#9776;</span>
+    </nav>
