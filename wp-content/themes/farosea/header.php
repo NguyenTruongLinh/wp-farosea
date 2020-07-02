@@ -65,7 +65,7 @@
             </div>
             <div class="follow-menu">
                 <ul>
-                    <li><a class="" href="#"><img src="<?php echo get_template_directory_uri() ?>/images/nhantin.png"></a></li>
+                    <li><a class="b24-web-form-popup-btn-2" href="javascript:void(0);"><img src="<?php echo get_template_directory_uri() ?>/images/nhantin.png"></a></li>
                     <li><div class="g-doc"></div></li>
                     <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/face-1.png"></a></li>
                     <li><div class="g-ngang"></div></li>

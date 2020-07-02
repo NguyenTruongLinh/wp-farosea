@@ -14,6 +14,6 @@ get_header();
 
     <div class="bg-header"></div>
 
-    
+
 <?php
 get_footer();

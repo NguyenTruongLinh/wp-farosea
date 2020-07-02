@@ -59,10 +59,7 @@ get_header();
                             <ul id="flexiselDemo3">
                                 <li><div class="boxpros"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg" alt="" /></a></div></li>
                                 <li><div class="boxpros"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" /></a></div></li>
-                                <li><div class="boxpros"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg" alt="" /></a></div></li>
-                                <li><div class="boxpros"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" /></a></div></li>
-                                <li><div class="boxpros"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg" alt="" /></a></div></li>
-                                <li><div class="boxpros"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" /></a></div></li>
+                                <li><div class="boxpros"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-3.jpg" alt="" /></a></div></li>
                             </ul>
                         </div>
                     </div>

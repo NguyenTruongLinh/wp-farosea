@@ -31,8 +31,6 @@ get_header();
     <div class="section hp-video wow fadeIn" data-wow-delay="0.3s" id="video-sc">
         <video id="video-viewport" poster="/vcommon/top/video/video_firstframe.jpg" autoplay loop muted controls fullscreen>
             <source src="<?php echo get_template_directory_uri() ?>/images/farosea.mp4" type="video/mp4">
-            <source src="<?php echo get_template_directory_uri() ?>/images/farosea.ogv" type="video/ogg">
-            <source src="<?php echo get_template_directory_uri() ?>/images/farosea.webm" type="video/webm">
         </video>
         <div class="note-banner wow fadeInRight" data-wow-delay="0.5s">
             <img src="<?php echo get_template_directory_uri() ?>/images/note-banner.png" alt="" />
@@ -161,8 +159,8 @@ get_header();
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-1-3.png,
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-1-4.png,
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-1-5.png, ">
-                                                <h5>Căn 2B</h5>
-                                                <div><h4>31.58 m2</h4></div>
+                                                <h5>Căn 1B</h5>
+                                                <div><h4>31.98 m2</h4></div>
                                                 <img class="hover-slide-img" src="<?php echo get_template_directory_uri() ?>/vila/phoicanh-1-1.png">
                                             </a>
 
@@ -172,8 +170,8 @@ get_header();
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-2-3.png,
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-2-4.png,
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-2-5.png, ">
-                                                <h5>Căn 2C</h5>
-                                                <div><h4>35.81 m2</h4></div>
+                                                <h5>Căn 26A</h5>
+                                                <div><h4>31.58 m2</h4></div>
                                                 <img class="hover-slide-img" src="<?php echo get_template_directory_uri() ?>/vila/phoicanh-2-2.png">
                                             </a>
 
@@ -183,8 +181,8 @@ get_header();
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-3-3.png,
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-3-4.png,
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-3-5.png, ">
-                                                <h5>Căn 2D</h5>
-                                                <div><h4>40.56 m2</h4></div>
+                                                <h5>Căn 21A</h5>
+                                                <div><h4>31.58 m2</h4></div>
                                                 <img class="hover-slide-img" src="<?php echo get_template_directory_uri() ?>/vila/phoicanh-3-3.png">
                                             </a>
 
@@ -194,8 +192,8 @@ get_header();
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-4-3.png,
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-4-4.png,
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-4-5.png, ">
-                                                <h5>Căn 2E</h5>
-                                                <div><h4>57.54 m2</h4></div>
+                                                <h5>Căn 16A</h5>
+                                                <div><h4>31.58 m2</h4></div>
                                                 <img class="hover-slide-img" src="<?php echo get_template_directory_uri() ?>/vila/phoicanh-4-4.png">
                                             </a>
 
@@ -205,8 +203,8 @@ get_header();
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-5-3.png,
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-5-4.png,
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-5-5.png, ">
-                                                <h5>Căn 2F</h5>
-                                                <div><h4>96.14 m2</h4></div>
+                                                <h5>Căn 10A</h5>
+                                                <div><h4>31.58 m2</h4></div>
                                                 <img class="hover-slide-img" src="<?php echo get_template_directory_uri() ?>/vila/phoicanh-5-5.png">
                                             </a>
                                         </div>
@@ -258,6 +256,13 @@ get_header();
         </div>
     </div>
 
+    <?php
+        $recent_posts = wp_get_recent_posts(array(
+            'numberposts' => 3, // Number of recent posts thumbnails to display
+            'post_status' => 'publish' // Show only the published posts
+        ));
+        if (count($recent_posts) > 0) :
+    ?>
     <div class="main-01" id="news-sc">
         <div class="ban1" data-stellar-background-ratio="0.5" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/ban6.jpg); background-position: 0px -94.2812px;">
             <div class="ShowBan-01">
@@ -274,31 +279,44 @@ get_header();
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12 col-xs-12">
                                         <div class="boxnews-h boxnews-h1 wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-                                            <a class="pic" href="#"><img src="<?php echo get_template_directory_uri() ?>/images/n1.jpg" alt=""></a>
+                                            <a class="pic" href="<?php echo get_permalink($recent_posts[0]['ID']) ?>">
+                                                <img src="<?php echo get_the_post_thumbnail_url($recent_posts[0]['ID']) ?>" alt="<?php echo $recent_posts[0]['post_title'] ?>">
+                                                <div class="news-newest">New</div>
+                                            </a>
                                             <div class="tit-view">
-                                                <a class="tit" href="#">Tâm điểm vàng tham quan dự án</a>
-                                                <a class="view" href="#">Chi tiết -</a>
+                                                <a class="tit" href="<?php echo get_permalink($recent_posts[0]['ID']) ?>"><?php echo $recent_posts[0]['post_title'] ?></a>
+                                                <a class="view" href="<?php echo get_permalink($recent_posts[0]['ID']) ?>">Chi tiết -</a>
                                             </div>
-                                            <span>01/01/2020</span>
+                                            <span><?php echo get_the_date('d/m/Y', $recent_posts[0]) ?></span>
                                         </div>
                                     </div>
+
                                     <div class="col-md-6 col-sm-12 col-xs-12">
-                                        <div class="boxnews-h boxnews-h2 wow fadeInRight" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-                                            <a class="pic" href="#"><img src="<?php echo get_template_directory_uri() ?>/images/n2.jpg" alt=""></a>
-                                            <div class="tit-view">
-                                                <a class="tit" href="#">Tâm điểm vàng tham quan dự án</a>
-                                                <a class="view" href="#">Chi tiết -</a>
+                                        <?php if (count($recent_posts) >= 2) : ?>
+                                            <div class="boxnews-h boxnews-h2 wow fadeInRight" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                                                <a class="pic" href="<?php echo get_permalink($recent_posts[1]['ID']) ?>">
+                                                    <img src="<?php echo get_the_post_thumbnail_url($recent_posts[1]['ID']) ?>" alt="<?php echo $recent_posts[1]['post_title'] ?>">
+                                                </a>
+                                                <div class="tit-view">
+                                                    <a class="tit" href="<?php echo get_permalink($recent_posts[1]['ID']) ?>"><?php echo $recent_posts[1]['post_title'] ?></a>
+                                                    <a class="view" href="<?php echo get_permalink($recent_posts[1]['ID']) ?>">Chi tiết -</a>
+                                                </div>
+                                                <span><?php echo get_the_date('d/m/Y', $recent_posts[1]) ?></span>
                                             </div>
-                                            <span>01/01/2020</span>
-                                        </div>
-                                        <div class="boxnews-h boxnews-h3 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-                                            <a class="pic" href="#"><img src="<?php echo get_template_directory_uri() ?>/images/n3.jpg" alt=""></a>
-                                            <div class="tit-view">
-                                                <a class="tit" href="#">Tâm điểm vàng tham quan dự án</a>
-                                                <a class="view" href="#">Chi tiết -</a>
+                                        <?php endif; ?>
+
+                                        <?php if (count($recent_posts) >= 3) : ?>
+                                            <div class="boxnews-h boxnews-h3 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                                <a class="pic" href="<?php echo get_permalink($recent_posts[2]['ID']) ?>">
+                                                    <img src="<?php echo get_the_post_thumbnail_url($recent_posts[2]['ID']) ?>" alt="<?php echo $recent_posts[2]['post_title'] ?>">
+                                                </a>
+                                                <div class="tit-view">
+                                                    <a class="tit" href="<?php echo get_permalink($recent_posts[2]['ID']) ?>"><?php echo $recent_posts[2]['post_title'] ?></a>
+                                                    <a class="view" href="<?php echo get_permalink($recent_posts[2]['ID']) ?>">Chi tiết -</a>
+                                                </div>
+                                                <span><?php echo get_the_date('d/m/Y', $recent_posts[2]) ?></span>
                                             </div>
-                                            <span>01/01/2020</span>
-                                        </div>
+                                        <?php endif; ?>
                                     </div>
                                 </div>
                             </div>
@@ -308,5 +326,6 @@ get_header();
             </div>
         </div>
     </div>
+    <?php endif; ?>
 <?php
 get_footer();

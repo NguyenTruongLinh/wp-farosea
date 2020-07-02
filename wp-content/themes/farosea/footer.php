@@ -106,6 +106,27 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+<script id="bx24_form_button" data-skip-moving="true">
+    (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
+        (w[b].forms=w[b].forms||[]).push(arguments[0])};
+        if(w[b]['forms']) return;
+        var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
+        var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+    })(window,document,'https://b24-tvi5rl.bitrix24.vn/bitrix/js/crm/form_loader.js','b24form');
+
+    b24form({"id":"2","lang":"vn","sec":"t9wl4y","type":"button","click":""});
+</script>
+<script id="bx24_form_delay" data-skip-moving="true">
+    (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
+        (w[b].forms=w[b].forms||[]).push(arguments[0])};
+        if(w[b]['forms']) return;
+        var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
+        var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+    })(window,document,'https://b24-tvi5rl.bitrix24.vn/bitrix/js/crm/form_loader.js','b24form');
+
+    b24form({"id":"2","lang":"vn","sec":"t9wl4y","type":"delay","delay":5});
+</script>
+
 <script>
     function openNav() {
         document.getElementById("myNav").style.width = "100%";

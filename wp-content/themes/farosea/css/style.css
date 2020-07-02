@@ -230,7 +230,18 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 .news-home { width: 100%; float: left; }
 .boxnews-h { width: 100%; float: left; }
 
-.boxnews-h a.pic {float: left; }
+.boxnews-h a.pic {float: left;
+    position: relative;}
+.news-newest {
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    padding: 2px 14px;
+    background-color: #ffc216;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    color: #000;
+}
 .boxnews-h a.pic img { width: 100%; float: left; }
 
 .boxnews-h a.tit { width: 100%; float: left; color: white; font-size: 24px; background: url(../images/icon-1-news.jpg) no-repeat left bottom; margin-top: 10px; }
@@ -284,8 +295,8 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 .sliderpage ul { list-style: none; }
 .sliderpage ul li { width: 16px; height: 16px; float: left; margin: 5px 0; }
 .sliderpage ul li a { width: 16px; height: 16px; float: left;}
-.sliderpage ul li a span {width: 16px; height: 16px; background: none; float: left; border-radius: 8px; border: 2px solid #999;}
-.sliderpage ul li a.active span {width: 16px; height: 16px; background: #999; float: left; border-radius: 8px;}
+.sliderpage ul li a span {width: 16px; height: 16px; background: none; float: left; border-radius: 8px; border: 2px solid #ffc216;}
+.sliderpage ul li a.active span {width: 16px; height: 16px; background: #ffc216; float: left; border-radius: 8px;}
 
 .ct-title {
     color: #f79737;
@@ -532,12 +543,12 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 .list-thuvien > p { width: 100%; float: left; color: white; font-size: 60px; text-transform: uppercase; display: block; text-align: right; font-family: "UTM-Aptima"; background: url(../images/ic-thuvien.jpg) no-repeat bottom right; }
 
 
-.top-301 { margin-top: 30px; width: 100%; height: 100%; float: left; position: relative; right: -25%; margin-top: 30px; }
+.top-301 { margin-top: 30px; width: 100%; height: 100%; float: left; position: relative; margin-top: 30px; }
 .listpros1 { width: 100%; float: left; position: relative;}
 .boxpros1 { width: 100%; float: left; padding: 0 50px;}
 .boxpros1 img { width: 100%; float: left; }
 
-.top-301 .nbs-flexisel-nav-right { right: 50%;background: url(../images/button-next.png) no-repeat; opacity: .1; transition: 1s;}
+.top-301 .nbs-flexisel-nav-right { right: 3px.card-item-01 h5;background: url(../images/button-next.png) no-repeat; opacity: .1; transition: 1s;}
 
 @media screen and (max-width: 767px){
     .top-301 { right: 0; padding: 0 100px; }
