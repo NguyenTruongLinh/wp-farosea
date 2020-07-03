@@ -395,7 +395,8 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 }
 
 
-.maps { width: 100%; float: left; }
+.maps { width: 100%; float: left;
+    background: url("../images/bg-location.png") no-repeat center / cover;}
 .maps img { width: 100%; float: left; }
 
 
@@ -602,30 +603,37 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
     margin-bottom: 50px;
 }
 
-.ct-news-page img {
+.ct-news-page img,
+.related-news img {
     display: block;
 }
-.ct-news-page h3 {
+.ct-news-page h3,
+.related-news h3 {
     margin-top: 20px;
     margin-bottom: 10px;
     font-weight: 600;
 }
-.ct-news-page h3 a {
+.ct-news-page h3 a,
+.related-news h3 a{
     color: #000;
     line-height: normal;
 }
-.ct-news-page p {
+.ct-news-page p,
+.related-news p {
     font-size: 14px;
 }
-.ct-news-page .date {
+.ct-news-page .date,
+.related-news .date {
     margin: 10px 0;
 }
-.ct-news-page .view_news {
+.ct-news-page .view_news,
+.related-news .view_news {
     font-size: 16px;
     text-transform: uppercase;
     color: #f79331;
 }
-.ct-news-page .ct_post {
+.ct-news-page .ct_post,
+.related-news .ct_post {
     margin-bottom: 30px;
 }
 .post-wrapper {
@@ -662,4 +670,12 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 }
 .overflow-hidden {
     overflow: hidden;
+}
+.related-news {
+    margin: 30px 0 50px;
+}
+.related-news h3.title {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 20px;
 }

@@ -15,7 +15,9 @@ get_header();
     <div class="bg-header"></div>
 
     <div class="main-ct" id="kieuhanh">
-        <img src="<?php echo get_template_directory_uri() ?>/images/pic-vang.jpg" alt="" class="wow fadeIn" data-wow-delay="0.3s" />
+        <video id="video-viewport" poster="/vcommon/top/video/video_firstframe.jpg" autoplay loop muted fullscreen>
+            <source src="<?php echo get_template_directory_uri() ?>/images/maps_composition.mp4" type="video/mp4">
+        </video>
         <div class="opacity-b50"></div>
         <div class="box-ct-2">
             <div class="title-01 tt-vang-1 wow fadeInUp" data-wow-delay="0.5s">

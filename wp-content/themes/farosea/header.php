@@ -28,6 +28,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/css/bootstrap-responsive.css" />       <!---->
     <!---------------------------------------------------------------------------------------->
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/js/fullpage/fullpage.min.css" />       <!---->
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/js/lightgallery/css/lightgallery.min.css" />       <!---->
 
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/css/style.css" />
 
