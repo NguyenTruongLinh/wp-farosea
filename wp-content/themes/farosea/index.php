@@ -264,8 +264,9 @@ get_header();
         if (count($recent_posts) > 0) :
     ?>
     <div class="main-01" id="news-sc">
-        <div class="ban1" data-stellar-background-ratio="0.5" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/ban6.jpg); background-position: 0px -94.2812px;">
+        <div class="ban1" data-stellar-background-ratio="0.5">
             <div class="ShowBan-01">
+                <img class="img-position-a" src="<?php echo get_template_directory_uri() ?>/images/ban6.jpg" alt="">
                 <div class="opacity-b50"></div>
                 <div class="container-footer">
                     <div class="row">

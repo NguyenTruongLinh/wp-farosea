@@ -39,15 +39,15 @@
                             <div class="col-md-2 col-sm-4 col-xs-6">
                                 <div class="ncc">
                                     <p>Chủ đầu tư</p>
-                                    <div class="ncc-img">
-                                        <img src="<?php echo get_template_directory_uri() ?>/images/l2f.png" alt=""/>
+                                    <div class="ncc-img overflow-hidden">
+                                        <img src="<?php echo get_template_directory_uri() ?>/images/LOGO_NhaBe.png" alt=""/>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-6">
                                 <div class="ncc">
                                     <p>Đơn vị phát triển</p>
-                                    <div class="ncc-img">
+                                    <div class="ncc-img overflow-hidden">
                                         <img src="<?php echo get_template_directory_uri() ?>/images/l3f.png" alt=""/>
                                     </div>
                                 </div>
@@ -55,7 +55,7 @@
                             <div class="col-md-2 col-sm-4 col-xs-6">
                                 <div class="ncc">
                                     <p>Thiết kế kiến trúc</p>
-                                    <div class="ncc-img">
+                                    <div class="ncc-img overflow-hidden">
                                         <img src="<?php echo get_template_directory_uri() ?>/images/l4f.png" alt=""/>
                                     </div>
                                 </div>
@@ -63,7 +63,7 @@
                             <div class="col-md-2 col-sm-4 col-xs-6">
                                 <div class="ncc">
                                     <p>Quản lý vận hành</p>
-                                    <div class="ncc-img">
+                                    <div class="ncc-img overflow-hidden">
                                         <img src="<?php echo get_template_directory_uri() ?>/images/l5f.png" alt=""/>
                                     </div>
                                 </div>
@@ -71,16 +71,16 @@
                             <div class="col-md-2 col-sm-4 col-xs-6">
                                 <div class="ncc">
                                     <p>Bảo lãnh dự án</p>
-                                    <div class="ncc-img">
-                                        <img src="<?php echo get_template_directory_uri() ?>/images/l6f.png" alt=""/>
+                                    <div class="ncc-img overflow-hidden">
+                                        <img src="<?php echo get_template_directory_uri() ?>/images/MBbank.png" alt=""/>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-6">
                                 <div class="ncc">
                                     <p>Tiếp thị và phân phối</p>
-                                    <div class="ncc-img">
-                                        <img src="<?php echo get_template_directory_uri() ?>/images/l6f.png" alt=""/>
+                                    <div class="ncc-img overflow-hidden">
+                                        <img src="<?php echo get_template_directory_uri() ?>/images/Gia-Hung-land.png" alt=""/>
                                     </div>
                                 </div>
                             </div>

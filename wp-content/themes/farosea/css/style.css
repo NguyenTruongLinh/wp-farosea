@@ -500,7 +500,7 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 .nbs-flexisel-container {position:relative;max-width:100%;}
 .nbs-flexisel-ul {position:relative;width:99999999px;margin:0px; padding:0px;list-style-type:none;/*text-align:center;  */}
 .nbs-flexisel-inner {overflow:hidden;float:left;width:100%;}
-.nbs-flexisel-item {float:left;cursor:pointer;/*margin:0px;padding:0px;position:relative;line-height:0px;*/}
+.nbs-flexisel-item {float:left;cursor:pointer; height: 100%;/*margin:0px;padding:0px;position:relative;line-height:0px;*/}
 /*.nbs-flexisel-item img {width: 100%;cursor: pointer;position: relative;margin-top: 10px;margin-bottom: 10px;max-width:110px;max-height:110px;}*/
 /*** Navigation ***/
 .nbs-flexisel-nav-left,.nbs-flexisel-nav-right {width: 21px;height: 87px; position: absolute;cursor: pointer;z-index: 9;opacity: 1;}
@@ -546,7 +546,7 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 .top-301 { margin-top: 30px; width: 100%; height: 100%; float: left; position: relative; margin-top: 30px; }
 .listpros1 { width: 100%; float: left; position: relative;}
 .boxpros1 { width: 100%; float: left; padding: 0 50px;}
-.boxpros1 img { width: 100%; float: left; }
+.boxpros1 img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; float: left; }
 
 .top-301 .nbs-flexisel-nav-right { right: 3px.card-item-01 h5;background: url(../images/button-next.png) no-repeat; opacity: .1; transition: 1s;}
 
@@ -659,4 +659,7 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 }
 .post-wrapper .content p {
     margin-bottom: 15px;
+}
+.overflow-hidden {
+    overflow: hidden;
 }

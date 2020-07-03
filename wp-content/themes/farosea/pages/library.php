@@ -27,12 +27,11 @@ get_header();
         <div class="top-301">
             <div class="listpros1">
                 <ul id="flexiselDemo31">
+                    <li><div class="boxpros1"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/view-tong-the.png" alt="" /></a></div></li>
+                    <li><div class="boxpros1"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/poolview1200.png" alt="" /></a></div></li>
                     <li><div class="boxpros1"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg" alt="" /></a></div></li>
                     <li><div class="boxpros1"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" /></a></div></li>
-                    <li><div class="boxpros1"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg" alt="" /></a></div></li>
-                    <li><div class="boxpros1"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" /></a></div></li>
-                    <li><div class="boxpros1"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg" alt="" /></a></div></li>
-                    <li><div class="boxpros1"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" /></a></div></li>
+                    <li><div class="boxpros1"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-3.jpg" alt="" /></a></div></li>
                 </ul>
             </div>
         </div>
@@ -46,7 +45,9 @@ get_header();
         <div class="top-301">
             <div class="listpros1">
                 <ul id="flexiselDemo32">
-                    <li><div class="boxpros1"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg" alt="" /></a></div></li>
+                    <li><div class="boxpros1"><a href="#">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/vJpx0hnJWiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </a></div></li>
                     <li><div class="boxpros1"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" /></a></div></li>
                     <li><div class="boxpros1"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg" alt="" /></a></div></li>
                     <li><div class="boxpros1"><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" /></a></div></li>
