@@ -21,15 +21,6 @@ get_header();
 
     <div class="index-thuvien" id="hinhanh">
         <img src="<?php echo get_template_directory_uri() ?>/images/farosea-thuvien.png">
-        <div class="follow-menu">
-            <ul>
-                <li><a class="" href="#"><img src="<?php echo get_template_directory_uri() ?>/images/nhantin.png"></a></li>
-                <li><div class="g-doc"></div></li>
-                <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/face-1.png"></a></li>
-                <li><div class="g-ngang"></div></li>
-                <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/tube-1.png"></a></li>
-            </ul>
-        </div>
         <div class="list-thuvien">
             <p>Hình ảnh</p>
         </div>
@@ -49,15 +40,6 @@ get_header();
 
     <div class="index-thuvien" id="video">
         <img src="<?php echo get_template_directory_uri() ?>/images/farosea-thuvien.png">
-        <div class="follow-menu">
-            <ul>
-                <li><a class="" href="#"><img src="<?php echo get_template_directory_uri() ?>/images/nhantin.png"></a></li>
-                <li><div class="g-doc"></div></li>
-                <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/face-1.png"></a></li>
-                <li><div class="g-ngang"></div></li>
-                <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/tube-1.png"></a></li>
-            </ul>
-        </div>
         <div class="list-thuvien">
             <p>Video</p>
         </div>
@@ -77,15 +59,6 @@ get_header();
 
     <div class="index-thuvien" id="brochure">
         <img src="<?php echo get_template_directory_uri() ?>/images/farosea-thuvien.png">
-        <div class="follow-menu">
-            <ul>
-                <li><a class="" href="#"><img src="<?php echo get_template_directory_uri() ?>/images/nhantin.png"></a></li>
-                <li><div class="g-doc"></div></li>
-                <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/face-1.png"></a></li>
-                <li><div class="g-ngang"></div></li>
-                <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/tube-1.png"></a></li>
-            </ul>
-        </div>
         <div class="list-thuvien">
             <p>Brochure</p>
         </div>
