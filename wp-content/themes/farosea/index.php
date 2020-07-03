@@ -91,7 +91,7 @@ get_header();
                 <a class="ct-title" href="<?php echo home_url()?>/vi-tri">Tìm hiểu thêm</a>
             </div>
         </div>
-        <video id="video-viewport" poster="/vcommon/top/video/video_firstframe.jpg" autoplay loop muted controls fullscreen loop>
+        <video id="video-viewport" poster="/vcommon/top/video/video_firstframe.jpg" autoplay loop muted fullscreen>
             <source src="<?php echo get_template_directory_uri() ?>/images/maps_vector_motion.mp4" type="video/mp4">
         </video>
     </div>
