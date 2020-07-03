@@ -91,9 +91,9 @@ get_header();
                 <a class="ct-title" href="<?php echo home_url()?>/vi-tri">Tìm hiểu thêm</a>
             </div>
         </div>
-        <div class="img-tongquan wow fadeInRight" data-wow-delay="0.4s">
-            <img src="<?php echo get_template_directory_uri() ?>/images/ban3-1.jpg" />
-        </div>
+        <video id="video-viewport" poster="/vcommon/top/video/video_firstframe.jpg" autoplay loop muted controls fullscreen loop>
+            <source src="<?php echo get_template_directory_uri() ?>/images/maps_vector_motion.mp4" type="video/mp4">
+        </video>
     </div>
 
     <div class="section main-02" id="thanghoa">

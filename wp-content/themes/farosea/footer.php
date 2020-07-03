@@ -18,15 +18,6 @@
 
 <div class="main-01" id="footer-sc">
     <div class="ShowBan-05">
-        <div class="follow-menu">
-            <ul>
-                <li><a class="" href="#"><img src="<?php echo get_template_directory_uri() ?>/images/nhantin.png"></a></li>
-                <li><div class="g-doc"></div></li>
-                <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/face-1.png"></a></li>
-                <li><div class="g-ngang"></div></li>
-                <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/tube-1.png"></a></li>
-            </ul>
-        </div>
         <div class="container-footer">
             <div class="row">
                 <div class="col-md-12">

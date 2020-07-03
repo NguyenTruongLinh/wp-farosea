@@ -90,7 +90,7 @@ get_header();
             <p>Brochure</p>
         </div>
         <div class="main-brochure">
-            <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-brochure.png" alt="" /></a>
+            <a href="<?php echo get_template_directory_uri() ?>/images/b2_Farosea_brochure_v7_2504.pdf" download="<?php echo get_template_directory_uri() ?>/images/b2_Farosea_brochure_v7_2504.pdf"><img src="<?php echo get_template_directory_uri() ?>/images/pic-brochure.png" alt="" /></a>
         </div>
     </div>
 
