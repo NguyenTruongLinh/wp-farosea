@@ -65,7 +65,7 @@ get_header();
                 <p>Lấy cảm hứng từ vẻ đẹp hùng vĩ của ngọn hải đăng Kê Gà, Farosea như một biểu tượng kiến trúc trường tồn giữa thiên nhiên hùng vĩ. Taị the Farosea, mỗi sớm mai thức dậy, du khách mới ngắm trọn vẹn ánh dương rạng ngời, vẻ đẹp thiên nhiên tuyệt mỹ của vịnh Kê Gà.</p>
             </div>
         </div>
-    </div>]
+    </div>
 
     <div class="main-ct" id="lytuong">
         <img src="<?php echo get_template_directory_uri() ?>/images/pic-lytuong.jpg" alt="" class="wow fadeIn" data-wow-delay="0.3s" />

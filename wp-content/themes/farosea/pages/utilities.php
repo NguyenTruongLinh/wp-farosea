@@ -56,20 +56,20 @@ get_header();
                 <div class="col-md-8 col-sm-8 col-xs-12">
                     <div class="top-30">
                         <div class="listpros">
-                            <ul id="flexiselDemo3">
-                                <li data-src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg">
+                            <ul id="flexiselDemo3" class="gallery">
+                                <li class="children" data-src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg">
                                     <div class="boxpros">
                                         <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg" alt="" />
                                         </a>
                                     </div>
                                 </li>
-                                <li data-src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg">
+                                <li class="children" data-src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg">
                                     <div class="boxpros">
                                         <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" />
                                         </a>
                                     </div>
                                 </li>
-                                <li data-src="<?php echo get_template_directory_uri() ?>/images/pic-dv-3.jpg">
+                                <li class="children" data-src="<?php echo get_template_directory_uri() ?>/images/pic-dv-3.jpg">
                                     <div class="boxpros">
                                         <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-3.jpg" alt="" />
                                         </a>

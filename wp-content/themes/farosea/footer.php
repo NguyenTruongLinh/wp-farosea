@@ -127,19 +127,42 @@
     }
 </script>
 
-<script src="<?php echo get_template_directory_uri() ?>/js/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+        center: true,
+        items:2,
+        loop:false,
+        margin:50,
+        dots: true,
+        nav: true,
+        navText: ['<img src="<?php echo get_template_directory_uri() ?>/images/button-previous.png" />', '<img src="<?php echo get_template_directory_uri() ?>/images/button-next.png" />'],
+        autoplay: true,
+        autoplayTimeout: 6000,
+        autoplayHoverPause: true,
+        responsive:{
+            0:{
+                items:1
+            },
+            767:{
+                items:2
+            },
+        }
+    })
+</script>
+
 <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
-<script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
-<script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
-<script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
-<script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
-<script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
-<script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
-<script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@1.7.2/dist/js/lightgallery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@1.7.2/modules/lg-video.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@1.7.2/modules/lg-thumbnail.min.js"></script>
 
 <script type="text/javascript">
-    lightGallery(document.getElementById('flexiselDemo31'));
-    lightGallery(document.getElementById('flexiselDemo3'));
+    $('.gallery').lightGallery({
+        selector: '.children'
+    });
+    $('#video-gallery').lightGallery({
+        selector: '#video-gallery .owl-item article'
+    });
 </script>
 
 <!--scroll-active-->

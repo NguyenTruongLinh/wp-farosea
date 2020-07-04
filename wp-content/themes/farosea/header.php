@@ -27,7 +27,8 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/css/bootstrap.css" />                  <!---->
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/css/bootstrap-responsive.css" />       <!---->
     <!---------------------------------------------------------------------------------------->
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/js/fullpage/fullpage.min.css" />       <!---->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />       <!---->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />       <!---->
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/js/lightgallery/css/lightgallery.min.css" />       <!---->
 
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/css/style.css" />

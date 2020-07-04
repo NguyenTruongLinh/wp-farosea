@@ -37,7 +37,7 @@ get_header();
             ?>
             <div class="row">
                 <?php foreach ($posts as $post) : ?>
-                <div class="col-md-4 col-sm-6 col-xs-6 ct_post">
+                <div class="col-md-4 col-sm-6 ct_post">
                     <div class="img-news shine_img">
                         <a href="<?php the_permalink(); ?>">
                             <img src="<?php the_post_thumbnail_url() ?>" alt="<?php the_title(); ?>" class="img-responsive">
