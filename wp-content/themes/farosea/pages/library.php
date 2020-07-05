@@ -26,7 +26,7 @@ get_header();
         </div>
         <div class="top-301">
             <div class="listpros1">
-                <div class="owl-carousel owl-theme">
+                <div class="owl-carousel owl-theme owl-library">
                     <article class="gallery">
                         <div class="boxpros1">
                             <a class="children" href="<?php echo get_template_directory_uri() ?>/images/view-tong-the.png">
@@ -139,7 +139,7 @@ get_header();
         </div>
         <div class="top-301">
             <div class="listpros1">
-                <div id="video-gallery" class="owl-carousel owl-theme">
+                <div id="video-gallery" class="owl-carousel owl-theme owl-library">
                     <article data-src="https://www.youtube.com/watch?v=vJpx0hnJWiw">
                         <div class="boxpros1">
                             <img src="<?php echo get_template_directory_uri() ?>/images/youtube-thumbnail-1.jpg" alt="" />

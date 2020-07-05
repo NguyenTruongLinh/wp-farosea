@@ -129,7 +129,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script type="text/javascript">
-    $('.owl-carousel').owlCarousel({
+    $('.owl-library').owlCarousel({
         center: true,
         items:2,
         loop:false,
@@ -148,7 +148,29 @@
                 items:2
             },
         }
-    })
+    });
+    $('.owl-ground').owlCarousel({
+        items:1,
+        loop: true,
+        dots: false,
+        margin:0,
+        nav: true,
+        navText: ['<img src="<?php echo get_template_directory_uri() ?>/images/button-previous.png" />', '<img src="<?php echo get_template_directory_uri() ?>/images/button-next.png" />'],
+        autoplay: true,
+        autoplayTimeout: 10000,
+        autoplayHoverPause: true,
+    });
+    $('map area').click(function (event) {
+        event.preventDefault();
+    });
+    function openPopupGround(element) {
+        $(element).addClass('show');
+        $('body').addClass('overflow-hidden');
+    }
+    function closePopupGround(element) {
+        $(element).removeClass('show');
+        $('body').removeClass('overflow-hidden');
+    }
 </script>
 
 <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
@@ -163,6 +185,11 @@
     $('#video-gallery').lightGallery({
         selector: '#video-gallery .owl-item article'
     });
+</script>
+
+<script src="<?php echo get_template_directory_uri() ?>/js/image-map.js"></script>
+<script type="text/javascript">
+    ImageMap('img.usemap');
 </script>
 
 <!--scroll-active-->
