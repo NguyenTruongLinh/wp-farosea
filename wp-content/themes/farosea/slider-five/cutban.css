@@ -120,4 +120,20 @@ transform: translate3d(0, 0, 0);
 
 @media screen and (max-width: 1080px){
 	.architecture > .cards-content { width: 100%; float: left; margin-top: 60px; left: 0; position: unset; }
+	.architecture > .cards-content .cards-list .cards-list-item .card-item > h5,
+	.architecture > .cards-content .cards-list .cards-list-item .card-item > div h4{
+		font-size: 14px;
+	}
+	.card-item-01 h5 {
+		margin-top: 20%;
+	}
+	.card-item-02 h5 {
+		margin-top: 6%;
+	}
+	.card-item-01 > div h4 {
+		margin-bottom: 18%;
+	}
+	.card-item-02 > div h4 {
+		margin-bottom: 6%;
+	}
 }

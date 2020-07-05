@@ -27,106 +27,24 @@ get_header();
         <div class="top-301">
             <div class="listpros1">
                 <div class="owl-carousel owl-theme owl-library">
+                    <?php $getposts = new WP_query(); $getposts->query('post_status=publish&post_type=gallery'); ?>
+                    <?php global $wp_query; $wp_query->in_the_loop = true; ?>
+                    <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
                     <article class="gallery">
                         <div class="boxpros1">
-                            <a class="children" href="<?php echo get_template_directory_uri() ?>/images/view-tong-the.png">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/view-tong-the.png" alt="" />
+                            <a class="children" href="<?php echo get_the_post_thumbnail_url() ?>">
+                                <img src="<?php echo get_the_post_thumbnail_url() ?>" alt="" />
                             </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/view-tong-the.png">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/view-tong-the.png" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/view-tong-the.png">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/view-tong-the.png" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/view-tong-the.png">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/view-tong-the.png" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/view-tong-the.png">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/view-tong-the.png" alt="" />
-                            </a>
-                            <p class="title">Phối cảnh tổng thể</p>
+                            <?php $gallery = get_field('thu-vien-con') ?>
+                            <?php foreach ($gallery as $item => $value) : ?>
+                                <a class="children hidden" href="<?php echo $value ?>">
+                                    <img src="<?php echo $value ?>" alt="" />
+                                </a>
+                            <?php endforeach; ?>
+                            <p class="title"><?php the_title() ?></p>
                         </div>
                     </article>
-                    <article class="gallery" ">
-                        <div class="boxpros1">
-                            <a class="children" href="<?php echo get_template_directory_uri() ?>/images/poolview1200.png">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/poolview1200.png" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/poolview1200.png">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/poolview1200.png" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/poolview1200.png">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/poolview1200.png" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/poolview1200.png">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/poolview1200.png" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/poolview1200.png">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/poolview1200.png" alt="" />
-                            </a>
-                            <p class="title">Phối cảnh tổng thể</p>
-                        </div>
-                    </article>
-                    <article class="gallery"">
-                        <div class="boxpros1">
-                            <a class="children" href="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg" alt="" />
-                            </a>
-                            <p class="title">Phối cảnh tổng thể</p>
-                        </div>
-                    </article>
-                    <article class="gallery"">
-                        <div class="boxpros1">
-                            <a class="children" href="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" />
-                            </a>
-                            <p class="title">Phối cảnh tổng thể</p>
-                        </div>
-                    </article>
-                    <article class="gallery"">
-                        <div class="boxpros1">
-                            <a class="children" href="<?php echo get_template_directory_uri() ?>/images/pic-dv-3.jpg">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-3.jpg" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/pic-dv-3.jpg">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-3.jpg" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/pic-dv-3.jpg">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-3.jpg" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/pic-dv-3.jpg">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-3.jpg" alt="" />
-                            </a>
-                            <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/pic-dv-3.jpg">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-3.jpg" alt="" />
-                            </a>
-                            <p class="title">Phối cảnh tổng thể</p>
-                        </div>
-                    </article>
+                    <?php endwhile; wp_reset_postdata(); ?>
                 </div>
             </div>
         </div>
@@ -140,36 +58,15 @@ get_header();
         <div class="top-301">
             <div class="listpros1">
                 <div id="video-gallery" class="owl-carousel owl-theme owl-library">
-                    <article data-src="https://www.youtube.com/watch?v=vJpx0hnJWiw">
-                        <div class="boxpros1">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/youtube-thumbnail-1.jpg" alt="" />
-                        </div>
-                    </article>
-                    <article data-src="https://www.youtube.com/watch?v=meBbDqAXago">
-                        <div class="boxpros1">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" />
-                        </div>
-                    </article>
-                    <article data-src="https://www.youtube.com/watch?v=meBbDqAXago">
-                        <div class="boxpros1">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg" alt="" />
-                        </div>
-                    </article>
-                    <article data-src="https://www.youtube.com/watch?v=meBbDqAXago">
-                        <div class="boxpros1">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" />
-                        </div>
-                    </article>
-                    <article data-src="https://www.youtube.com/watch?v=meBbDqAXago">
-                        <div class="boxpros1">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-1.jpg" alt="" />
-                        </div>
-                    </article>
-                    <article data-src="https://www.youtube.com/watch?v=meBbDqAXago">
-                        <div class="boxpros1">
-                            <img src="<?php echo get_template_directory_uri() ?>/images/pic-dv-2.jpg" alt="" />
-                        </div>
-                    </article>
+                    <?php $getposts = new WP_query(); $getposts->query('post_status=publish&post_type=videos'); ?>
+                    <?php global $wp_query; $wp_query->in_the_loop = true; ?>
+                    <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+                        <article data-src="<?php the_field('video_con'); ?>">
+                            <div class="boxpros1">
+                                <img src="<?php echo get_template_directory_uri() ?>/images/youtube-thumbnail-1.jpg" alt="" />
+                            </div>
+                        </article>
+                    <?php endwhile; wp_reset_postdata(); ?>
                 </div>
             </div>
         </div>

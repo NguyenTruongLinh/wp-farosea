@@ -181,3 +181,91 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+// Gallery library
+add_theme_support('gallery');
+function gallery()
+{
+    $label = array(
+        'name' => 'Thư viện hình ảnh',
+        'gallery' => 'gallery'
+    );
+
+    $args = array(
+        'labels' => $label,
+        'description' => 'Custom Gallery Library',
+        'supports' => array(
+            'title',
+            'thumbnail'
+        ),
+        'hierarchical' => false,
+        'public' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'show_in_nav_menus' => true,
+        'show_in_admin_bar' => true,
+        'menu_position' => 12,
+        'menu_icon' => 'dashicons-format-gallery',
+        'can_export' => true,
+        'has_archive' => true,
+        'exclude_from_search' => true,
+        'publicly_queryable' => true,
+        'capability_type' => 'post'
+    );
+    register_post_type('gallery', $args);
+}
+add_action('init', 'gallery');
+
+add_theme_support('videos');
+function videos()
+{
+    $label = array(
+        'name' => 'Thư viện Video',
+        'videos' => 'videos'
+    );
+
+    $args = array(
+        'labels' => $label,
+        'description' => 'Custom Gallery Library',
+        'supports' => array(
+            'title',
+            'thumbnail'
+        ),
+        'hierarchical' => false,
+        'public' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'show_in_nav_menus' => true,
+        'show_in_admin_bar' => true,
+        'menu_position' => 12,
+        'menu_icon' => 'dashicons-format-video',
+        'can_export' => true,
+        'has_archive' => true,
+        'exclude_from_search' => true,
+        'publicly_queryable' => true,
+        'capability_type' => 'post'
+    );
+    register_post_type('videos', $args);
+}
+add_action('init', 'videos');
+
+add_action( 'phpmailer_init', 'send_smtp_email' );
+function send_smtp_email( $phpmailer ) {
+    $phpmailer->isSMTP();
+    $phpmailer->Host       = SMTP_HOST;
+    $phpmailer->SMTPAuth   = SMTP_AUTH;
+    $phpmailer->Port       = SMTP_PORT;
+    $phpmailer->SMTPSecure = SMTP_SECURE;
+    $phpmailer->Username   = SMTP_USERNAME;
+    $phpmailer->Password   = SMTP_PASSWORD;
+}
+
+add_action('wp_ajax_send_form_information', 'send_form_information');
+add_action('wp_ajax_nopriv_send_form_information', 'send_form_information');
+function send_form_information() {
+    $subject = 'Thông tin đăng ký tham quan dự án từ ' . $_POST['last-name'] . ' ' .$_POST['first-name'];
+    $body = 'Họ tên: ' . $_POST['last-name'] . ' ' .$_POST['first-name'] .PHP_EOL. 'Email: ' .
+        $_POST['email'] .PHP_EOL. 'Số điện thoại: ' . $_POST['phone-number'] .PHP_EOL. 'Ghi chú: ' . $_POST['note']
+    ;
+
+    wp_mail('cskh@fhouse.vn', $subject, $body);
+}

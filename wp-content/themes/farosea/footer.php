@@ -95,27 +95,153 @@
     </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<div class="popup-form">
+    <div class="overlay"></div>
+    <a class="close-popup" onclick="closePopupGround('.popup-form')"><i class="fas fa-times"></i></a>
+    <h2 class="title">ĐĂNG KÝ THAM QUAN DỰ ÁN </h2>
+    <form action="<?php echo admin_url('admin-ajax.php') ?>" method="POST">
+        <div class="form-row">
+            <div class="col-md-2">
+                <div class="form-group">
+                    <select name="gender" id="">
+                        <option value="Ông">Ông</option>
+                        <option value="Bà">Bà</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="form-group">
+                    <label for="">Họ</label>
+                    <input name="last-name" type="text" placeholder="Họ">
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="form-group">
+                    <label for="">Tên</label>
+                    <input name="first-name" type="text" placeholder="Tên">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Điện thoại</label>
+            <input name="phone-number" type="text" placeholder="Điện thoại">
+        </div>
+        <div class="form-group">
+            <label for="">Email</label>
+            <input name="email" type="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="">Lời nhắn</label>
+            <textarea name="note" type="text" placeholder="Lời nhắn"></textarea>
+        </div>
 
-<script id="bx24_form_button" data-skip-moving="true">
-    (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
-        (w[b].forms=w[b].forms||[]).push(arguments[0])};
-        if(w[b]['forms']) return;
-        var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
-        var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-    })(window,document,'https://b24-tvi5rl.bitrix24.vn/bitrix/js/crm/form_loader.js','b24form');
+        <div class="text-center">
+            <button class="popup-submit">ĐĂNG KÝ</button>
+        </div>
+    </form>
+</div>
 
-    b24form({"id":"2","lang":"vn","sec":"t9wl4y","type":"button","click":""});
-</script>
-<script id="bx24_form_delay" data-skip-moving="true">
-    (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
-        (w[b].forms=w[b].forms||[]).push(arguments[0])};
-        if(w[b]['forms']) return;
-        var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
-        var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-    })(window,document,'https://b24-tvi5rl.bitrix24.vn/bitrix/js/crm/form_loader.js','b24form');
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
-    b24form({"id":"2","lang":"vn","sec":"t9wl4y","type":"delay","delay":5});
+<!--<script id="bx24_form_button" data-skip-moving="true">-->
+<!--    (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;-->
+<!--        (w[b].forms=w[b].forms||[]).push(arguments[0])};-->
+<!--        if(w[b]['forms']) return;-->
+<!--        var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());-->
+<!--        var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);-->
+<!--    })(window,document,'https://b24-tvi5rl.bitrix24.vn/bitrix/js/crm/form_loader.js','b24form');-->
+<!---->
+<!--    b24form({"id":"2","lang":"vn","sec":"t9wl4y","type":"button","click":""});-->
+<!--</script>-->
+<!--<script id="bx24_form_delay" data-skip-moving="true">-->
+<!--    (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;-->
+<!--        (w[b].forms=w[b].forms||[]).push(arguments[0])};-->
+<!--        if(w[b]['forms']) return;-->
+<!--        var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());-->
+<!--        var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);-->
+<!--    })(window,document,'https://b24-tvi5rl.bitrix24.vn/bitrix/js/crm/form_loader.js','b24form');-->
+<!---->
+<!--    b24form({"id":"2","lang":"vn","sec":"t9wl4y","type":"delay","delay":5});-->
+<!--</script>-->
+
+<script type="text/javascript">
+    $(document).on('keyup', '.form-group input, .form-group textarea', function () {
+        if ($(this).val()) {
+            $(this).closest('.form-group').addClass('input-valid');
+        } else {
+            $(this).closest('.form-group').removeClass('input-valid');
+        }
+    });
+    $(document).on('change', '.form-group select', function () {
+        if ($(this).find('option').length !== 0) {
+            $(this).closest('.form-group').addClass('input-valid');
+        }
+    });
+    $($('.form-group input:not(:checkbox), .form-group textarea')).each(function (index, item) {
+        if ($(this).val() !== '') {
+            $(this).closest('.form-group').addClass('input-valid');
+        }
+        if ($('.form-group select').find('option').length !== 0) {
+            $('.form-group select').closest('.form-group').addClass('input-valid');
+        }
+    });
+
+    $('.popup-form form').submit(function (event) {
+        event.preventDefault();
+        let url = $(this).attr('action');
+        let gender = $(this).find('select[name="gender"]');
+        let firstName = $(this).find('input[name="first-name"]');
+        let lastName = $(this).find('input[name="last-name"]');
+        let phoneNumber = $(this).find('input[name="phone-number"]');
+        let email = $(this).find('input[name="email"]');
+        let note = $(this).find('textarea[name="note"]');
+        let button = $('.popup-submit');
+
+        checkError(firstName);
+        checkError(lastName);
+        checkError(phoneNumber);
+        checkError(email);
+
+        if (firstName.val() && lastName.val() && phoneNumber.val() && email.val()) {
+            $.ajax({
+                type: 'POST',
+                dataType: 'json',
+                url: url,
+                data: {
+                    action: 'send_form_information',
+                    'gender': gender.val(),
+                    'first-name': firstName.val(),
+                    'last-name': lastName.val(),
+                    'phone-number': phoneNumber.val(),
+                    'email': email.val(),
+                    'note': note.val(),
+                },
+                beforeSend: function() {
+                    button.text('Đang đăng ký...');
+                    button.attr('disabled', !0)
+                },
+                success: function(data) {
+                    var r = confirm("Đăng ký nhận tin thành công!");
+                    if (r === true) {
+                        location.reload();
+                    }
+                    button.text('Đăng ký');
+                    button.attr('disabled', !1);
+                },
+                error: function(error) {
+                    console.log(error.message)
+                }
+            })
+        }
+    });
+
+    function checkError(element) {
+        if (element.val() === '') {
+            element.addClass('input-error');
+        } else {
+            element.removeClass('input-error');
+        }
+    }
 </script>
 
 <script>

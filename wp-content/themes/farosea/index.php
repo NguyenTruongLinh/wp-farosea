@@ -29,7 +29,7 @@ get_header();
     </div>
 
     <div class="section hp-video wow fadeIn" data-wow-delay="0.3s" id="video-sc">
-        <video id="video-viewport" poster="/vcommon/top/video/video_firstframe.jpg" autoplay loop muted controls fullscreen>
+        <video id="video-viewport" poster="/vcommon/top/video/video_firstframe.jpg" autoplay loop muted fullscreen>
             <source src="<?php echo get_template_directory_uri() ?>/images/farosea.mp4" type="video/mp4">
         </video>
         <div class="note-banner wow fadeInRight" data-wow-delay="0.5s">
@@ -114,7 +114,7 @@ get_header();
                                 <p>The Farosea được xây dựng trong tổ hợp nghỉ dưỡng ven biển đẳng cấp, dành cho chủ nhân xứng tầm.</p>
                                 <p>&nbsp;</p>
                                 <p>Trọn vẹn tận hưởng kỳ nghỉ dưỡng trong không gian xanh mát của vùng biển hài hòa và được trải nghiệm các dịch vụ chăm sóc, giải trí theo tiêu chuẩn 5 sao.</p>
-                                <a href="#">Tìm hiểu thêm</a>
+                                <a href="<?php echo home_url() ?>/tien-ich">Tìm hiểu thêm</a>
                             </div>
                             <div class="pks">
                                 <img src="<?php echo get_template_directory_uri() ?>/images/pk2.png" style="width: 100%; float: left; margin-top: 20px;">
