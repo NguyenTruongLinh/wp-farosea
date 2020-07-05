@@ -209,7 +209,7 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 .chan01 > img { width: 100%; float: left; }
 
 .main-03 { width: 100%; float: left; position: relative;}
-.ShowBan-03 { width: 100%; float: left; background: url(../images/bg-xanh.jpg) repeat-x center bottom; padding-bottom: 60px;}
+.ShowBan-03 { width: 100%; float: left; padding-bottom: 60px;}
 .main-03 > img { width: 100%; float: left; }
 
 .ShowBan-04 { min-height: 900px; position: relative; padding: 60px 0;}
@@ -342,6 +342,9 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
     .ShowBan-kieuhanh .ct-kieuhanh p { font-size: 18px; }
     .img-kieuhanh { margin-top: 0; width: 100%;}
     .img-kieuhanh img { max-width: 100%; float: left; }
+    .footer > p.p1 {
+        font-size: 26px;
+    }
 }
 /*------------------------------------------------------------------------------------------------------------------------*/
 
@@ -1069,4 +1072,14 @@ map:hover + .ground-img-hover {
     .location-page {
         background: #006738;
     }
+}
+.asset-management:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 33%;
+    overflow: hidden;
+    background-image: linear-gradient(#38AF49, #016A3A);
 }

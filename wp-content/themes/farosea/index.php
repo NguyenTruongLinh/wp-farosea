@@ -46,7 +46,7 @@ get_header();
             </div>
             <div class="ctent-01 ct-kieuhanh wow fadeInUp" data-wow-delay="0.5s">
                 <p>Lấy cảm hứng từ vẻ đẹp hùng vĩ của ngọn hải đăng Kê Gà, Farosea như một biểu tượng kiến trúc trường tồn giữa thiên nhiên hùng vĩ. Taị the Farosea, mỗi sớm mai thức dậy, du khách mới ngắm trọn vẹn ánh dương rạng ngời, vẻ đẹp thiên nhiên tuyệt mỹ của vịnh Kê Gà.</p>
-                <a href="#">Tìm hiểu thêm</a>
+                <a href="<?php echo home_url()?>/cau-chuyen-du-an">Tìm hiểu thêm</a>
             </div>
         </div>
         <div class="img-kieuhanh wow fadeInRight" data-wow-delay="0.4s">
@@ -218,7 +218,7 @@ get_header();
         </div>
     </div>
 
-    <div class="section main-03" id="thongminh">
+    <div class="section main-03 asset-management" id="thongminh">
         <div class="ShowBan-03">
             <div class="container-full">
                 <div class="row">
@@ -240,7 +240,7 @@ get_header();
                         <div class="ctent-02">
                             <div class="row">
                                 <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <p class="nt-thongminh">Theo dõi tức thời hiệu quảkhai thác: tỉ lệ khai thác, lợi nhuận.</p>
+                                    <p class="nt-thongminh">Theo dõi tức thời hiệu quả khai thác: tỉ lệ khai thác, lợi nhuận.</p>
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-12">
                                     <p class="nt-thongminh">Cập nhật nhanh hóng thông tin dự án: pháp lý, tiến độ xây dựng, tiến độ thanh toán.</p>

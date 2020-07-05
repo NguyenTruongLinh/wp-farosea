@@ -267,5 +267,5 @@ function send_form_information() {
         $_POST['email'] .PHP_EOL. 'Số điện thoại: ' . $_POST['phone-number'] .PHP_EOL. 'Ghi chú: ' . $_POST['note']
     ;
 
-    wp_mail('cskh@fhouse.vn', $subject, $body);
+    wp_mail('taicd@fhouse.vn', $subject, $body);
 }
