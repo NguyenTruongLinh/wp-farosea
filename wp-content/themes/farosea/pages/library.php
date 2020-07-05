@@ -63,7 +63,7 @@ get_header();
                     <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
                         <article data-src="<?php the_field('video_con'); ?>">
                             <div class="boxpros1">
-                                <img src="<?php echo get_template_directory_uri() ?>/images/youtube-thumbnail-1.jpg" alt="" />
+                                <img src="<?php echo get_the_post_thumbnail_url() ?>" alt="" />
                             </div>
                         </article>
                     <?php endwhile; wp_reset_postdata(); ?>
