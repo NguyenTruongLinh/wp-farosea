@@ -20,9 +20,9 @@
     <ul>
         <li><a class="open-popup-form" href="javascript:void(0);" onclick="openPopupGround('.popup-form')"><img src="<?php echo get_template_directory_uri() ?>/images/nhantin.png"></a></li>
         <li><div class="g-doc"></div></li>
-        <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/face-1.png"></a></li>
+        <li><a href="https://www.facebook.com/thefarosea/?eid=ARALZZhrjemtszL5NCZfoAcf3A1U-hUMwMjjCJ7ZgXNbGg9Nxarl08NZBuNHkAiUA0RvysLfP93TIiP0"><img src="<?php echo get_template_directory_uri() ?>/images/face-1.png"></a></li>
         <li><div class="g-ngang"></div></li>
-        <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/tube-1.png"></a></li>
+        <li><a href="https://www.youtube.com/channel/UCjP_-TQIgn0CYJpO_kWVGtw"><img src="<?php echo get_template_directory_uri() ?>/images/tube-1.png"></a></li>
     </ul>
 </div>
 
