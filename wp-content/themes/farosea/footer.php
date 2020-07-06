@@ -16,6 +16,16 @@
     .boxnews-h { visibility: unset !important; }
 </style>
 
+<div class="follow-menu">
+    <ul>
+        <li><a class="open-popup-form" href="javascript:void(0);" onclick="openPopupGround('.popup-form')"><img src="<?php echo get_template_directory_uri() ?>/images/nhantin.png"></a></li>
+        <li><div class="g-doc"></div></li>
+        <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/face-1.png"></a></li>
+        <li><div class="g-ngang"></div></li>
+        <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/tube-1.png"></a></li>
+    </ul>
+</div>
+
 <div class="main-01" id="footer-sc">
     <div class="ShowBan-05">
         <div class="container-footer">
@@ -282,9 +292,9 @@
         margin:0,
         nav: true,
         navText: ['<img src="<?php echo get_template_directory_uri() ?>/images/button-previous.png" />', '<img src="<?php echo get_template_directory_uri() ?>/images/button-next.png" />'],
-        // autoplay: true,
-        // autoplayTimeout: 10000,
-        // autoplayHoverPause: true,
+        autoplay: true,
+        autoplayTimeout: 10000,
+        autoplayHoverPause: true,
     });
     $('map area').click(function (event) {
         event.preventDefault();

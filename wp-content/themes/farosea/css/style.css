@@ -44,10 +44,11 @@ a:hover {text-decoration: none !important;}
 .container-footer {max-width: 1360px; width: 100%; padding-right:40px; padding-left:40px; margin-right:auto; margin-left:auto;}
 
 nav.header {   width: 100%; height: 62px; background-color: rgba(255, 255, 255, 1); border-bottom: 2px solid #fec41b;
-    display: grid; grid-template-columns: 1fr 1fr; position: fixed; z-index: 10; -webkit-transition: all 0.3s; transition: all 0.3s;
+    display: -ms-grid;
+    display: grid; -ms-grid-columns: 1fr 1fr; grid-template-columns: 1fr 1fr; position: fixed; z-index: 10; -webkit-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s;
     float: left;
 }
-nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255, .9); box-shadow: 3px 6px 10px #333; }
+nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255, .9); -webkit-box-shadow: 3px 6px 10px #333; box-shadow: 3px 6px 10px #333; }
 
 @media screen and (max-width: 991px){
     .container-full {max-width: 100%; width: 100%; padding-right:30px; padding-left:30px; margin-right:auto; margin-left:auto;}
@@ -76,14 +77,15 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 .language ul li.active a { color: white; }
 /*------------------------------------*/
 .mNav { cursor: pointer; position: absolute; right: 10px; top: 15px; width: 36px; height: 30px; line-height: 30px; color: #2e7444; font-size: 40px; font-weight: bold;}
-.overlay { height: 100%; width: 0; position: fixed; z-index: 100; top: 0; right: 0; background-color: rgba(0,0,0, 0.9); overflow-x: hidden; transition: 0.5s;}
+.overlay { height: 100%; width: 0; position: fixed; z-index: 100; top: 0; right: 0; background-color: rgba(0,0,0, 0.9); overflow-x: hidden; -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s;}
 .logo-menu { width: 100%; height: 100%; float: left; background: url(../images/bg-menu.png) no-repeat center #006838; background-size: 80% auto;}
 .overlay-content { position: relative; top: 50%; margin-top: -310px;  width: 100%; text-align: center;}
-.overlay a { padding: 6px; text-decoration: none; font-size: 40px; color: white; display: block; transition: 0.3s; font-family: "UTM-Aptima"; text-transform: uppercase;}
+.overlay a { padding: 6px; text-decoration: none; font-size: 40px; color: white; display: block; -webkit-transition: 0.3s; -o-transition: 0.3s; transition: 0.3s; font-family: "UTM-Aptima"; text-transform: uppercase;}
 .overlay a:hover, .overlay a:focus { color: #f79737;}
 .overlay .closebtn { position: absolute; top: 20px; right: 45px; font-size: 60px; z-index: 99}
 
-.follow-menu { width: 90px; height: 330px; position: fixed; left: 0; bottom: 0;}
+.follow-menu { width: 90px; height: 330px; position: fixed; left: 0; bottom: 0;
+    z-index: 9999;}
 .follow-menu ul { list-style: none; }
 .follow-menu ul li { width: 100%; float: left; padding: 5px 0; }
 .follow-menu ul li a img { display: block; margin: 0 auto; }
@@ -132,7 +134,9 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
     right: 0;
     width: 100%;
     height: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
+    -o-object-position: 50% 50%;
     object-position: 50% 50%;
 }
 .ShowBan-01 { min-height: 900px; position: relative; padding: 30px 0;}
@@ -405,7 +409,7 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
     .box-ct-1 { bottom: 30px; }
 }
 @media screen and (max-width: 991px){
-    .main-ct > img { position: absolute; top: 0; left: 0; height: 100%; z-index: -1; object-fit: cover; object-position: 50% 50%;}
+    .main-ct > img { position: absolute; top: 0; left: 0; height: 100%; z-index: -1; -o-object-fit: cover; object-fit: cover; -o-object-position: 50% 50%; object-position: 50% 50%;}
     .box-ct, .box-ct-1, .box-ct-2 { padding: 30px; }
 
     .box-ct { position: unset; float: left; width: 100%; max-width: 100%;}
@@ -529,8 +533,8 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 /*.nbs-flexisel-item img {width: 100%;cursor: pointer;position: relative;margin-top: 10px;margin-bottom: 10px;max-width:110px;max-height:110px;}*/
 /*** Navigation ***/
 .nbs-flexisel-nav-left,.nbs-flexisel-nav-right {width: 21px;height: 87px; position: absolute;cursor: pointer;z-index: 9;opacity: 1;}
-.nbs-flexisel-nav-left { left: 5px;background: url(../images/button-previous.png) no-repeat; opacity: .1; transition: 1s;}
-.nbs-flexisel-nav-right { right: 5px;background: url(../images/button-next.png) no-repeat; opacity: .1; transition: 1s;}
+.nbs-flexisel-nav-left { left: 5px;background: url(../images/button-previous.png) no-repeat; opacity: .1; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
+.nbs-flexisel-nav-right { right: 5px;background: url(../images/button-next.png) no-repeat; opacity: .1; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
 .listpros:hover .nbs-flexisel-nav-left { opacity: .9; }
 .listpros:hover .nbs-flexisel-nav-right { opacity: .9; }
 
@@ -556,9 +560,9 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .index-thuvien { width: 100%; height: auto; float: left; position: relative; padding-bottom: 100px; border-bottom: 1px solid black;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#006938+0,37b349+100 */
-    background: #006938; /* Old browsers */
-    background: -moz-linear-gradient(left,  #006938 0%, #37b349 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  #006938 0%,#37b349 100%); /* Chrome10-25,Safari5.1-6 */
+    background: #006938; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-gradient(linear,  left top, right top,  from(#006938),to(#37b349));
+    background: -o-linear-gradient(left,  #006938 0%,#37b349 100%);
     background: linear-gradient(to right,  #006938 0%,#37b349 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006938', endColorstr='#37b349',GradientType=1 ); /* IE6-9 */
 }
@@ -571,18 +575,20 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 .top-301 { margin-top: 30px; width: 100%; height: 100%; float: left; position: relative; margin-top: 30px; }
 .listpros1 { width: 100%; float: left; position: relative;}
 .listpros1 .owl-carousel .owl-controls {
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     bottom: -45px;
 }
 .boxpros1 { width: 100%; float: left; padding: 0;
     position: relative;}
-.boxpros1 img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; float: left; }
+.boxpros1 img { width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover; -o-object-position: 50% 50%; object-position: 50% 50%; float: left; }
 
-.top-301 .nbs-flexisel-nav-right { right: 3px.card-item-01 h5;background: url(../images/button-next.png) no-repeat; opacity: .1; transition: 1s;}
+.top-301 .nbs-flexisel-nav-right { right: 3px.card-item-01 h5;background: url(../images/button-next.png) no-repeat; opacity: .1; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
 
 @media screen and (max-width: 767px){
     .top-301 { right: 0; padding: 0 100px; }
-    .top-301 .nbs-flexisel-nav-right { right: 5px;background: url(../images/button-next.png) no-repeat; opacity: .1; transition: 1s;}
+    .top-301 .nbs-flexisel-nav-right { right: 5px;background: url(../images/button-next.png) no-repeat; opacity: .1; -webkit-transition: 1s; -o-transition: 1s; transition: 1s;}
 }
 
 .main-brochure { width: 100%; float: left; margin-top: 30px; }
@@ -729,6 +735,8 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 .owl-theme .owl-nav {
     position: absolute;
     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     left: 0;
     width: 100%;
@@ -752,12 +760,16 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
     position: absolute;
     left: 50%;
     bottom: -12%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 .owl-theme .owl-dots .owl-dot.active span {
     background: #f79331;
 }
 .owl-carousel.owl-drag .owl-item {
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     position: relative;
 }
@@ -782,6 +794,8 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
     left: 0;
     z-index: 99;
     opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 .ground-img-hover img {
@@ -827,10 +841,14 @@ map:hover + .ground-img-hover {
     width: 100%;
     height: calc(100vh - 60px);
     z-index: 99997;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     display: none;
 }
 .mb-popup.show {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .mb-popup:before {
@@ -884,8 +902,14 @@ map:hover + .ground-img-hover {
 .mb-popup .description ul {
     list-style: none;
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 .mb-popup .description ul p {
@@ -897,6 +921,8 @@ map:hover + .ground-img-hover {
     position: absolute;
     left: 50%;
     bottom: -25px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     width: 1px;
     height: 20px;
@@ -922,8 +948,11 @@ map:hover + .ground-img-hover {
     width: 100%;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background: url('../images/bg-popup-form.png') no-repeat center / cover;
+    -webkit-box-shadow: 1px 4px 16px 2px rgba(255, 255, 255, .4);
     box-shadow: 1px 4px 16px 2px rgba(255, 255, 255, .4);
     padding: 30px;
     z-index: 9;
@@ -955,8 +984,14 @@ map:hover + .ground-img-hover {
     z-index: 3;
     width: 40px;
     height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     cursor: pointer;
 }
@@ -977,6 +1012,8 @@ map:hover + .ground-img-hover {
     position: absolute;
     bottom: -20px;
     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     width: 20%;
     height: 2px;
@@ -992,6 +1029,8 @@ map:hover + .ground-img-hover {
     outline: none;
     padding: .6875rem;
     text-transform: uppercase;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     width: 100%;
 }
@@ -1019,6 +1058,8 @@ map:hover + .ground-img-hover {
     position: absolute;
     text-transform: uppercase;
     top: .5625rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     visibility: hidden;
 }
@@ -1044,6 +1085,8 @@ map:hover + .ground-img-hover {
     border: 1px solid #f79331;
     position: relative;
     z-index: 2;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     outline: none;
 }
@@ -1087,6 +1130,8 @@ map:hover + .ground-img-hover {
     bottom: 0;
     height: 33%;
     overflow: hidden;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#38AF49), to(#016A3A));
+    background-image: -o-linear-gradient(#38AF49, #016A3A);
     background-image: linear-gradient(#38AF49, #016A3A);
 }
 .owl-utilities.owl-theme .owl-nav button.owl-prev {
@@ -1107,7 +1152,9 @@ map:hover + .ground-img-hover {
     z-index: 2;
     width: 100%;
     height: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
+    -o-object-position: 50% 50%;
     object-position: 50% 50%;
 }
 .tich-right .children {

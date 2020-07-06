@@ -65,15 +65,6 @@
                     <a href="<?php echo home_url() ?>/lien-he">Liên hệ</a>
                 </div>
             </div>
-            <div class="follow-menu">
-                <ul>
-                    <li><a class="open-popup-form" href="javascript:void(0);" onclick="openPopupGround('.popup-form')"><img src="<?php echo get_template_directory_uri() ?>/images/nhantin.png"></a></li>
-                    <li><div class="g-doc"></div></li>
-                    <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/face-1.png"></a></li>
-                    <li><div class="g-ngang"></div></li>
-                    <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/tube-1.png"></a></li>
-                </ul>
-            </div>
         </div>
         <span class="mNav" onclick="openNav()">&#9776;</span>
     </nav>
