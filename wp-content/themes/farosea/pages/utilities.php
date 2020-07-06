@@ -31,7 +31,7 @@ get_header();
                     <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/5sao-vn.png" alt="" /></a>
                 </div>
                 <div class="ctent-01 ct-5sao wow fadeInUp" data-wow-delay="0.8s">
-                    <p>Các tiện ích hiện đại và đẳng cấp tại Farosea mang đến cho du khách những trải nghiệm khó quên, nơi mỗi giác quan được nâng niu và chiều chuộng, nơi mỗi phút giây trôi qua là sự bừng sáng của niềm vui như ánh bình minh rực rỡ rạng ngời.</p>
+                    <p>Các tiện ích hiện đại và đẳng cấp tại The Farosea mang đến cho du khách những trải nghiệm khó quên, nơi mỗi giác quan được nâng niu và chiều chuộng, nơi mỗi phút giây trôi qua là sự bừng sáng của niềm vui như ánh bình minh rực rỡ rạng ngời.</p>
                 </div>
             </div>
             <div class="tich-right">
@@ -72,7 +72,7 @@ get_header();
                         <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/traitim-vn.png" alt="" /></a>
                     </div>
                     <div class="ctent-01 ct-traitim wow fadeInUp" data-wow-delay="0.8s">
-                        <p>Tại the Farosea, mỗi du khách đều có thể cảm nhận sự thoải mái, tiện nghi như chính ngôi nhà của mình với đội ngũ nhân viên phục vụ tận tình, chuyên nghiệp cùng các dịch vụ đẳng cấp 5 sao đến từ các thương hiệu uy tín quốc tế. </p>
+                        <p>Tại The Farosea, mỗi du khách đều có thể cảm nhận sự thoải mái, tiện nghi như chính ngôi nhà của mình với đội ngũ nhân viên phục vụ tận tình, chuyên nghiệp cùng các dịch vụ đẳng cấp 5 sao đến từ các thương hiệu uy tín quốc tế. </p>
                     </div>
                 </div>
                 <div class="col-md-8 col-sm-8 col-xs-12">

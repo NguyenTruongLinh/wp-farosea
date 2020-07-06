@@ -18,11 +18,23 @@
 
 <div class="follow-menu">
     <ul>
-        <li><a class="open-popup-form" href="javascript:void(0);" onclick="openPopupGround('.popup-form')"><img src="<?php echo get_template_directory_uri() ?>/images/nhantin.png"></a></li>
+        <li>
+            <a class="open-popup-form" href="javascript:void(0);" onclick="openPopupGround('.popup-form')">
+                <img src="<?php echo get_template_directory_uri() ?>/images/nhantin.png">
+            </a>
+        </li>
         <li><div class="g-doc"></div></li>
-        <li><a href="https://www.facebook.com/thefarosea/?eid=ARALZZhrjemtszL5NCZfoAcf3A1U-hUMwMjjCJ7ZgXNbGg9Nxarl08NZBuNHkAiUA0RvysLfP93TIiP0"><img src="<?php echo get_template_directory_uri() ?>/images/face-1.png"></a></li>
+        <li class="facebook">
+            <a href="https://www.facebook.com/thefarosea/?eid=ARALZZhrjemtszL5NCZfoAcf3A1U-hUMwMjjCJ7ZgXNbGg9Nxarl08NZBuNHkAiUA0RvysLfP93TIiP0">
+                <img src="<?php echo get_template_directory_uri() ?>/images/facebookvienxanh.png">
+            </a>
+        </li>
         <li><div class="g-ngang"></div></li>
-        <li><a href="https://www.youtube.com/channel/UCjP_-TQIgn0CYJpO_kWVGtw"><img src="<?php echo get_template_directory_uri() ?>/images/tube-1.png"></a></li>
+        <li class="youtube">
+            <a href="https://www.youtube.com/channel/UCjP_-TQIgn0CYJpO_kWVGtw">
+                <img src="<?php echo get_template_directory_uri() ?>/images/youtubevienxanh.png">
+            </a>
+        </li>
     </ul>
 </div>
 
@@ -36,15 +48,16 @@
                         <p class="p1">CÔNG TY CỔ PHẦN DỊCH VỤ BẤT ĐỘNG SẢN F.HOUSE</p>
                         <p class="p2">&nbsp;</p>
                         <p class="p2">&nbsp;</p>
-                        <p class="p2">149 đường 19, phường An Phú, Quận 2, TP HCM</p>
-                        <p class="p2">028 225 36 229 - 0933 209 777</p>
-                        <p class="p2">cskh@fhouse.vn</p>
+                        <p class="p2">Địa chỉ: 149 đường số 19, phường An Phú, Quận 2, TP.HCM</p>
+                        <p class="p2">Điện thoại: <a href="tel:028 225 36 229">028 225 36 229</a> – <a href="tel:0933 209 777">0933 209 777</a></p>
+                        <p class="p2">Email: <a href="mailto:cskh@fhouse.vn">cskh@fhouse.vn</a></p>
                         <p class="p2">Tax: 0314757986</p>
                         <p class="p2">&nbsp;</p>
                         <p class="p2">&nbsp;</p>
                         <p class="p2">Địa chỉ dự án The Farose: Xã Thuận Quý, huyện Hàm Thuận Nam, Bình Thuận</p>
-                        <p class="p2">Website: www.farosea.vn</p>
-                        <p class="p2">Hotline:</p>
+                        <p class="p2">Website: <a href="http://farosea.vn/">http://farosea.vn/</a></p>
+                        <p class="p2">Hotline: <a href="tel:0911 522 221">0911 522 221</a> – <a
+                                    href="tel:0911 522 220">0911 522 220</a></p>
                         <div class="row">
                             <div class="col-md-2 col-sm-4 col-xs-6">
                                 <div class="ncc">
@@ -119,16 +132,10 @@
                     </select>
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-10">
                 <div class="form-group">
-                    <label for="">Họ</label>
-                    <input name="last-name" type="text" placeholder="Họ">
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="form-group">
-                    <label for="">Tên</label>
-                    <input name="first-name" type="text" placeholder="Tên">
+                    <label for="">Họ tên</label>
+                    <input name="first-name" type="text" placeholder="Họ tên">
                 </div>
             </div>
         </div>
@@ -144,6 +151,7 @@
             <label for="">Lời nhắn</label>
             <textarea name="note" type="text" placeholder="Lời nhắn"></textarea>
         </div>
+        <p class="form-error"></p>
 
         <div class="text-center">
             <button class="popup-submit">ĐĂNG KÝ</button>
@@ -207,12 +215,12 @@
         let note = $(this).find('textarea[name="note"]');
         let button = $('.popup-submit');
 
+        checkError(note);
         checkError(firstName);
-        checkError(lastName);
         checkError(phoneNumber);
         checkError(email);
 
-        if (firstName.val() && lastName.val() && phoneNumber.val() && email.val()) {
+        if (note.val() && firstName.val() && phoneNumber.val() && email.val()) {
             $.ajax({
                 type: 'POST',
                 dataType: 'json',
@@ -242,6 +250,8 @@
                     console.log(error.message)
                 }
             })
+        } else {
+            $('.form-error').text('Vui lòng điền đẩy đủ thông tin!');
         }
     });
 

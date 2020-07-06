@@ -64,6 +64,7 @@ get_header();
                         <article data-src="<?php the_field('video_con'); ?>">
                             <div class="boxpros1">
                                 <img src="<?php echo get_the_post_thumbnail_url() ?>" alt="" />
+                                <p class="title"><?php the_title() ?></p>
                             </div>
                         </article>
                     <?php endwhile; wp_reset_postdata(); ?>

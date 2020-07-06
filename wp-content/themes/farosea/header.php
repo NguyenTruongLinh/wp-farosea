@@ -42,7 +42,16 @@
     <nav class="header">
         <div class="logo"><a href="<?php echo home_url() ?>"><img src="<?php echo get_template_directory_uri() ?>/images/logo.png" alt="LaPhong" /></a></div>
         <div class="call-phone">
-            <a href="tel:"><img src="<?php echo get_template_directory_uri() ?>/images/call-phone.png" alt="" /></a>
+<!--            <a href="tel:"><img src="--><?php //echo get_template_directory_uri() ?><!--/images/call-phone.png" alt="" /></a>-->
+            <div class="ring">
+                <div class="ring-circle"></div>
+                <div class="ring-circle-fill"></div>
+                <div class="ring-img-circle">
+                    <a href="tel:0911 522 220" class="btn-img">
+                        <img src="<?php echo get_template_directory_uri() ?>/images/icon-phone-ring.png" width="50">
+                    </a>
+                </div>
+            </div>
         </div>
         <div class="language">
             <ul>

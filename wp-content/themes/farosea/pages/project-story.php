@@ -62,7 +62,8 @@ get_header();
                 <p>Đẹp nhất Việt Nam</p>
             </div>
             <div class="ctent-01 ct-binhminh wow fadeInUp" data-wow-delay="0.8s">
-                <p>Lấy cảm hứng từ vẻ đẹp hùng vĩ của ngọn hải đăng Kê Gà, Farosea như một biểu tượng kiến trúc trường tồn giữa thiên nhiên hùng vĩ. Taị the Farosea, mỗi sớm mai thức dậy, du khách mới ngắm trọn vẹn ánh dương rạng ngời, vẻ đẹp thiên nhiên tuyệt mỹ của vịnh Kê Gà.</p>
+                <p>Khi ban mai vừa chớm, những vệt sáng kỳ ảo lan tỏa dập dìu trên sóng nước. Những tia nắng sớm dát vàng trên vườn đá, đánh thức ngọn hải đăng thấp thoáng xa xa. Mặt trời tấu lên khúc giao hưởng của sắc màu và ánh sáng, nhịp nhàng lan tỏa trong không gian huyền diệu đầy chất thơ.
+                    <br>The Farosea - Nơi chiêm ngưỡng tuyệt tác bình minh đặc sắc nhất.</p>
             </div>
         </div>
     </div>
@@ -77,7 +78,10 @@ get_header();
                 <p>Nơi vịnh thiên đường</p>
             </div>
             <div class="ctent-01 ct-lytuong wow fadeInUp" data-wow-delay="0.8s">
-                <p>Lấy cảm hứng từ vẻ đẹp hùng vĩ của ngọn hải đăng Kê Gà, Farosea như một biểu tượng kiến trúc trường tồn giữa thiên nhiên hùng vĩ. Taị the Farosea, mỗi sớm mai thức dậy, du khách mới ngắm trọn vẹn ánh dương rạng ngời, vẻ đẹp thiên nhiên tuyệt mỹ của vịnh Kê Gà.</p>
+                <p>Các hạng mục giao thông quan trọng đã và đang đồng loạt khởi động như sân bay Phan Thiết, tuyến cao tốc Dầu Giây – Phan Thiết, cao tốc Bắc Nam, Quốc lộ ven biển ĐT719B, tuyến đường ven biển quốc gia ĐT719 đang nâng cấp và mở rộng... sẽ tạo thành lực đẩy hạ tầng giúp Kê Gà vươn mình trở thành thủ phủ resort mới, thu hút lượng lớn du khách nội địa và quốc tế. Đồng thời mở ra cơ hội gia tăng giá trị bất động sản trong khu vực.
+                    <br>
+                    Với vị thế thuận lợi cùng những giá trị vượt trội, The Farosea chính là bài toán đầu tư - nghỉ dưỡng lý tưởng nơi vùng đất “thiên đường Kê Gà” giàu tiềm năng.
+                </p>
             </div>
         </div>
     </div>

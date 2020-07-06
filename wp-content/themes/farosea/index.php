@@ -28,7 +28,7 @@ get_header();
         </ul>
     </div>
 
-    <div class="section hp-video wow fadeIn" data-wow-delay="0.3s" id="video-sc">
+    <div class="section hp-video wow fadeIn video-home-page" data-wow-delay="0.3s" id="video-sc">
         <video id="video-viewport" poster="/vcommon/top/video/video_firstframe.jpg" autoplay loop muted fullscreen>
             <source src="<?php echo get_template_directory_uri() ?>/images/farosea.mp4" type="video/mp4">
         </video>
@@ -45,7 +45,7 @@ get_header();
                 <p>GIỮA THỦ PHỦ RESORT MỚI</p>
             </div>
             <div class="ctent-01 ct-kieuhanh wow fadeInUp" data-wow-delay="0.5s">
-                <p>Lấy cảm hứng từ vẻ đẹp hùng vĩ của ngọn hải đăng Kê Gà, Farosea như một biểu tượng kiến trúc trường tồn giữa thiên nhiên hùng vĩ. Taị the Farosea, mỗi sớm mai thức dậy, du khách mới ngắm trọn vẹn ánh dương rạng ngời, vẻ đẹp thiên nhiên tuyệt mỹ của vịnh Kê Gà.</p>
+                <p>Lấy cảm hứng từ vẻ đẹp hùng vĩ của ngọn hải đăng Kê Gà, The Farosea như một biểu tượng kiến trúc trường tồn giữa thiên nhiên hùng vĩ. Tại The Farosea, mỗi sớm mai thức dậy, du khách mới ngắm trọn vẹn ánh dương rạng ngời, vẻ đẹp thiên nhiên tuyệt mỹ của vịnh Kê Gà.</p>
                 <a href="<?php echo home_url()?>/cau-chuyen-du-an">Tìm hiểu thêm</a>
             </div>
         </div>
@@ -69,7 +69,7 @@ get_header();
                             <div class="ctent-01 ct-duan">
                                 <p>The Farosea nằm trong quần thể du lịch nghỉ dưỡng hiện hữu thu hút nhiều du khách.</p>
                                 <p>&nbsp;</p>
-                                <p>Dự án đươc quy hoạch theo phong cách phóng khoáng, hiện đại. Bên cạnh đó, bãi tắm hoàn toàn riêng tư, khép kín chỉ dành phục vụ cho cư dân và du khách nội khu là đặc quyền mà Farosa dành tặng những chủ nhân tương lai.</p>
+                                <p>Dự án đươc quy hoạch theo phong cách phóng khoáng, hiện đại. Bên cạnh đó, bãi tắm hoàn toàn riêng tư, khép kín chỉ dành phục vụ cho cư dân và du khách nội khu là đặc quyền mà The Farosea dành tặng những chủ nhân tương lai.</p>
                                 <a class="ct-title" href="<?php echo home_url()?>/gioi-thieu">Tìm hiểu thêm</a>
                             </div>
                         </div>
@@ -243,7 +243,7 @@ get_header();
                                     <p class="nt-thongminh">Theo dõi tức thời hiệu quả khai thác: tỉ lệ khai thác, lợi nhuận.</p>
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <p class="nt-thongminh">Cập nhật nhanh hóng thông tin dự án: pháp lý, tiến độ xây dựng, tiến độ thanh toán.</p>
+                                    <p class="nt-thongminh">Cập nhật nhanh chóng thông tin dự án: pháp lý, tiến độ xây dựng, tiến độ thanh toán.</p>
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-12">
                                     <p class="nt-thongminh">Tương tác trực tiếp với chủ đầu tư: nhận thông báo, hỏi đáp.</p>
