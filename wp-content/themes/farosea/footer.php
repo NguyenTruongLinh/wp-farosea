@@ -282,9 +282,9 @@
         margin:0,
         nav: true,
         navText: ['<img src="<?php echo get_template_directory_uri() ?>/images/button-previous.png" />', '<img src="<?php echo get_template_directory_uri() ?>/images/button-next.png" />'],
-        autoplay: true,
-        autoplayTimeout: 10000,
-        autoplayHoverPause: true,
+        // autoplay: true,
+        // autoplayTimeout: 10000,
+        // autoplayHoverPause: true,
     });
     $('map area').click(function (event) {
         event.preventDefault();

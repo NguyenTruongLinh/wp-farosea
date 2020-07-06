@@ -444,7 +444,7 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 .tich-right { width: calc(100% - 500px); height: 700px; float: left; overflow: hidden; position: relative; }
 .tich-right > a { width: calc(100% - 30px); height: calc(100% - 60px); float:left; overflow: hidden; position: absolute; z-index: 2;}
 .tich-right > a > img { width: auto; min-width: 100%; height: 100%; float: left;  }
-.tit-tich-right { width: calc(100% - 30px); height: calc(100% - 60px); float: left; position: absolute; right: 0; bottom: 0; background: #006838; z-index: 1;}
+.tit-tich-right { width: calc(100% - 30px); height: calc(100% - 60px); float: left; position: absolute; right: 0; bottom: 0; background: #006838; z-index: 0;}
 .tit-tich-right p { width: 100%; height: 60px; float: left; position: absolute; bottom: 0; color: white; font-family: "UTM-Aptima"; font-size: 30px; display: block; text-align: center; line-height: 50px; }
 
 
@@ -1088,4 +1088,29 @@ map:hover + .ground-img-hover {
     height: 33%;
     overflow: hidden;
     background-image: linear-gradient(#38AF49, #016A3A);
+}
+.owl-utilities.owl-theme .owl-nav button.owl-prev {
+    left: 4%;
+}
+.owl-utilities.owl-theme .owl-nav button.owl-next {
+    right: 4%;
+}
+.tich-right .owl-carousel,
+.tich-right .owl-carousel .owl-stage-outer,
+.tich-right .owl-carousel .owl-stage,
+.tich-right .owl-carousel.owl-drag .owl-item,
+.tich-right .gallery {
+    height: 100%;
+}
+.tich-right img {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.tich-right .children {
+    display: block;
+    height: calc(100% - 60px);
 }

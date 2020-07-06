@@ -35,8 +35,30 @@ get_header();
                 </div>
             </div>
             <div class="tich-right">
-                <div class="tit-tich-right"><p>Công viên Bốn mùa</p></div>
-                <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/tich-2.jpg" alt=""/></a>
+                <div class="owl-carousel owl-theme owl-ground owl-utilities">
+                    <div class="gallery">
+                        <div class="tit-tich-right"><p>Hồ bơi tràn bờ</p></div>
+                        <a class="children" href="<?php echo get_template_directory_uri() ?>/images/ho-boi-tran-bo-1.jpg"><img src="<?php echo get_template_directory_uri() ?>/images/ho-boi-tran-bo-1.jpg" alt=""/></a>
+                        <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/ho-boi-tran-bo-2.jpg"><img src="<?php echo get_template_directory_uri() ?>/images/ho-boi-tran-bo-2.jpg" alt=""/></a>
+                    </div>
+                    <div class="gallery">
+                        <div class="tit-tich-right"><p>Gym & Spa</p></div>
+                        <a class="children" href="<?php echo get_template_directory_uri() ?>/images/Gym.jpg"><img src="<?php echo get_template_directory_uri() ?>/images/Gym.jpg" alt=""/></a>
+                        <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/Gym01.jpg"><img src="<?php echo get_template_directory_uri() ?>/images/Gym01.jpg" alt=""/></a>
+                        <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/Spa.jpg"><img src="<?php echo get_template_directory_uri() ?>/images/Spa.jpg" alt=""/></a>
+                        <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/Spa01.jpg"><img src="<?php echo get_template_directory_uri() ?>/images/Spa01.jpg" alt=""/></a>
+                    </div>
+                    <div class="gallery">
+                        <div class="tit-tich-right"><p>Công viên đồi vọng cảnh</p></div>
+                        <a class="children" href="<?php echo get_template_directory_uri() ?>/images/Congvien.jpg"><img src="<?php echo get_template_directory_uri() ?>/images/Congvien.jpg" alt=""/></a>
+                        <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/Congvien01.jpg"><img src="<?php echo get_template_directory_uri() ?>/images/Congvien01.jpg" alt=""/></a>
+                    </div>
+                    <div class="gallery">
+                        <div class="tit-tich-right"><p>Sky bar</p></div>
+                        <a class="children" href="<?php echo get_template_directory_uri() ?>/images/Skybar.jpg"><img src="<?php echo get_template_directory_uri() ?>/images/Skybar.jpg" alt=""/></a>
+                        <a class="children hidden" href="<?php echo get_template_directory_uri() ?>/images/Skybar01.jpg"><img src="<?php echo get_template_directory_uri() ?>/images/Skybar01.jpg" alt=""/></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
