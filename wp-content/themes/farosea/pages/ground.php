@@ -113,11 +113,11 @@ get_header();
     <div class="mb-popup popup-mb-01">
         <a class="close_popup" onclick="closePopupGround('.popup-mb-01')"><img src="<?php echo get_template_directory_uri() ?>/images/close-popup.png" alt="close popup"></a>
         <div class="owl-carousel owl-theme owl-ground">
-            <div class="container-full">
+            <div class="container-full pt-30">
                 <div class="row">
                     <div class="col-md-5 text-center">
-                        <img class="hero" src="<?php echo get_template_directory_uri() ?>/images/can-ho-01.png" alt="">
-                        <img class="hero-1" src="<?php echo get_template_directory_uri() ?>/images/can-ho-mb-01.png" alt="">
+                        <img class="hero" src="<?php echo get_template_directory_uri() ?>/images/can-ho-02.png" alt="">
+                        <img class="hero-1" src="<?php echo get_template_directory_uri() ?>/images/can-ho-mb-02.png" alt="">
                         <p>Mặt bằng căn hộ điển hình</p>
                     </div>
                     <div class="col-md-7">
@@ -126,11 +126,38 @@ get_header();
                             <ul class="view-mb">
                                 <li>
                                     <p>Diện tích tim tường</p>
-                                    <span>43.19 m2</span>
+                                    <span>31.58 m2</span>
                                 </li>
                                 <li>
                                     <p>Diện tích thông thuỷ</p>
-                                    <span>39.39 m2</span>
+                                    <span>28.96 m2</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <img class="hero-3" src="<?php echo get_template_directory_uri() ?>/images/can-ho-bg-02.png" alt="can-ho-bg-01">
+                        <p class="warning">Hình dự án là hình ảnh 3D, chỉ mang tính chất minh họa,
+                            chi tiết và kích thước có thể thay đổi theo từng vị trí cụ thể.Khách hàng nên xem xét và hỏi rõ nhân viên bán hàng.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-full pt-30">
+                <div class="row">
+                    <div class="col-md-5 text-center">
+                        <img class="hero" src="<?php echo get_template_directory_uri() ?>/images/can-ho-01.png" alt="">
+                        <img class="hero-1" src="<?php echo get_template_directory_uri() ?>/images/can-ho-mb-01.png" alt="">
+                        <p>Mặt bằng căn hộ điển hình</p>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="description">
+                            <h3 class="title">Căn hộ loại B</h3>
+                            <ul class="view-mb">
+                                <li>
+                                    <p>Diện tích tim tường</p>
+                                    <span>31.56 m2</span>
+                                </li>
+                                <li>
+                                    <p>Diện tích thông thuỷ</p>
+                                    <span>28.73 m2</span>
                                 </li>
                             </ul>
                         </div>
@@ -140,16 +167,16 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="container-full">
+            <div class="container-full pt-30">
                 <div class="row">
                     <div class="col-md-5 text-center">
-                        <img class="hero" src="<?php echo get_template_directory_uri() ?>/images/can-ho-01.png" alt="">
-                        <img class="hero-1" src="<?php echo get_template_directory_uri() ?>/images/can-ho-mb-01.png" alt="">
+                        <img class="hero" src="<?php echo get_template_directory_uri() ?>/images/can-ho-03.png" alt="">
+                        <img class="hero-1" src="<?php echo get_template_directory_uri() ?>/images/can-ho-mb-03.png" alt="">
                         <p>Mặt bằng căn hộ điển hình</p>
                     </div>
                     <div class="col-md-7">
                         <div class="description">
-                            <h3 class="title">Căn hộ loại A</h3>
+                            <h3 class="title">Căn hộ loại G</h3>
                             <ul class="view-mb">
                                 <li>
                                     <p>Diện tích tim tường</p>
@@ -161,7 +188,7 @@ get_header();
                                 </li>
                             </ul>
                         </div>
-                        <img class="hero-3" src="<?php echo get_template_directory_uri() ?>/images/can-ho-bg-01.png" alt="can-ho-bg-01">
+                        <img class="hero-3" src="<?php echo get_template_directory_uri() ?>/images/can-ho-bg-03.png" alt="can-ho-bg-01">
                         <p class="warning">Hình dự án là hình ảnh 3D, chỉ mang tính chất minh họa,
                             chi tiết và kích thước có thể thay đổi theo từng vị trí cụ thể.Khách hàng nên xem xét và hỏi rõ nhân viên bán hàng.</p>
                     </div>

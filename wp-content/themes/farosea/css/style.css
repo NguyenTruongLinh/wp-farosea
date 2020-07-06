@@ -850,13 +850,18 @@ map:hover + .ground-img-hover {
     cursor: pointer;
 }
 .mb-popup .hero {
-    width: 100% !important;
+    width: 70% !important;
+    margin: 0 auto;
 }
 .mb-popup .hero-1 {
     width: 50% !important;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+}
+.mb-popup .pt-30 {
+    padding-top: 30px;
 }
 .mb-popup .hero-3 {
     width: 70% !important;
