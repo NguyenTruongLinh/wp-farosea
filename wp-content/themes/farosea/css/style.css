@@ -377,7 +377,8 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 /*------------------------------------------------------------------------------------------------------------------------*/
 
 .bg-header { width: 100%; float: left; height: 62px; }
-.main-ct { width: 100%; float: left; position: relative; }
+.main-ct { width: 100%; float: left; position: relative;
+    z-index: 9;}
 .main-ct > img { width: 100%; float: left;}
 .box-ct { max-width: 680px; width: 100%; position: absolute; top: 0; right: 0; padding: 0 60px; }
 .box-ct-1 { max-width: 680px; width: 100%; position: absolute; bottom: 60px; right: 0; padding: 0 60px; }
