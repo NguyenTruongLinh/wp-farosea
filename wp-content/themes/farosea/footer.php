@@ -55,7 +55,6 @@
                         <p class="p2 hidden-sm">&nbsp;</p>
                         <p class="p2">&nbsp;</p>
                         <p class="p2">Địa chỉ dự án The Farose: Xã Thuận Quý, huyện Hàm Thuận Nam, Bình Thuận</p>
-                        <p class="p2">Website: <a href="http://farosea.vn/">http://farosea.vn/</a></p>
                         <p class="p2">Hotline: <a href="tel:0911 522 221">0911 522 221</a> – <a
                                     href="tel:0911 522 220">0911 522 220</a></p>
                         <div class="row">
