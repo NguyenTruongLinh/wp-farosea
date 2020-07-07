@@ -38,9 +38,9 @@
 </head>
 
 <body class="preloading">
-<!--    <div class="load">-->
-<!--        <img src="--><?php //echo get_template_directory_uri(); ?><!--/images/loading-pages.gif">-->
-<!--    </div>-->
+    <div class="load">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/loading-pages.gif">
+    </div>
 
     <nav class="header">
         <div class="logo"><a href="<?php echo home_url() ?>"><img src="<?php echo get_template_directory_uri() ?>/images/logo.png" alt="LaPhong" /></a></div>

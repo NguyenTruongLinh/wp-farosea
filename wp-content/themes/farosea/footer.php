@@ -46,20 +46,20 @@
                     <div class="footer">
                         <div class="logo-f"><img src="<?php echo get_template_directory_uri() ?>/images/l1f.png" alt="" /></div>
                         <p class="p1">CÔNG TY CỔ PHẦN DỊCH VỤ BẤT ĐỘNG SẢN F.HOUSE</p>
-                        <p class="p2">&nbsp;</p>
+                        <p class="p2 hidden-sm">&nbsp;</p>
                         <p class="p2">&nbsp;</p>
                         <p class="p2">Địa chỉ: 149 đường số 19, phường An Phú, Quận 2, TP.HCM</p>
                         <p class="p2">Điện thoại: <a href="tel:028 225 36 229">028 225 36 229</a> – <a href="tel:0933 209 777">0933 209 777</a></p>
                         <p class="p2">Email: <a href="mailto:cskh@fhouse.vn">cskh@fhouse.vn</a></p>
                         <p class="p2">Tax: 0314757986</p>
-                        <p class="p2">&nbsp;</p>
+                        <p class="p2 hidden-sm">&nbsp;</p>
                         <p class="p2">&nbsp;</p>
                         <p class="p2">Địa chỉ dự án The Farose: Xã Thuận Quý, huyện Hàm Thuận Nam, Bình Thuận</p>
                         <p class="p2">Website: <a href="http://farosea.vn/">http://farosea.vn/</a></p>
                         <p class="p2">Hotline: <a href="tel:0911 522 221">0911 522 221</a> – <a
                                     href="tel:0911 522 220">0911 522 220</a></p>
                         <div class="row">
-                            <div class="col-md-2 col-sm-4 col-xs-6">
+                            <div class="col-md-2 col-sm-4 col-xs-4">
                                 <div class="ncc">
                                     <p>Chủ đầu tư</p>
                                     <div class="ncc-img overflow-hidden">
@@ -67,7 +67,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-2 col-sm-4 col-xs-6">
+                            <div class="col-md-2 col-sm-4 col-xs-4">
                                 <div class="ncc">
                                     <p>Đơn vị phát triển</p>
                                     <div class="ncc-img overflow-hidden">
@@ -75,7 +75,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-2 col-sm-4 col-xs-6">
+                            <div class="col-md-2 col-sm-4 col-xs-4">
                                 <div class="ncc">
                                     <p>Thiết kế kiến trúc</p>
                                     <div class="ncc-img overflow-hidden">
@@ -83,7 +83,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-2 col-sm-4 col-xs-6">
+                            <div class="col-md-2 col-sm-4 col-xs-4">
                                 <div class="ncc">
                                     <p>Quản lý vận hành</p>
                                     <div class="ncc-img overflow-hidden">
@@ -91,7 +91,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-2 col-sm-4 col-xs-6">
+                            <div class="col-md-2 col-sm-4 col-xs-4">
                                 <div class="ncc">
                                     <p>Bảo lãnh dự án</p>
                                     <div class="ncc-img overflow-hidden">
@@ -99,7 +99,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-2 col-sm-4 col-xs-6">
+                            <div class="col-md-2 col-sm-4 col-xs-4">
                                 <div class="ncc">
                                     <p>Tiếp thị và phân phối</p>
                                     <div class="ncc-img overflow-hidden">
