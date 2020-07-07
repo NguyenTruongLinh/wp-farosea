@@ -48,7 +48,7 @@ get_header();
                 <p>GIỮA THỦ PHỦ RESORT MỚI</p>
             </div>
             <div class="ctent-01 ct-kieuhanh-1 wow fadeInUp" data-wow-delay="0.8s">
-                <p>Lấy cảm hứng từ vẻ đẹp hùng vĩ của ngọn hải đăng Kê Gà, Farosea như một biểu tượng kiến trúc trường tồn giữa thiên nhiên hùng vĩ. Taị the Farosea, mỗi sớm mai thức dậy, du khách mới ngắm trọn vẹn ánh dương rạng ngời, vẻ đẹp thiên nhiên tuyệt mỹ của vịnh Kê Gà.</p>
+                <p>Lấy cảm hứng từ vẻ đẹp hùng vĩ của ngọn hải đăng Kê Gà, The Farosea như một biểu tượng kiến trúc trường tồn giữa thiên nhiên hùng vĩ. Tại The Farosea, mỗi sớm mai thức dậy, du khách mới ngắm trọn vẹn ánh dương rạng ngời, vẻ đẹp thiên nhiên tuyệt mỹ của vịnh Kê Gà.</p>
             </div>
         </div>
     </div>
