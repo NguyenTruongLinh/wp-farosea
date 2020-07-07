@@ -54,7 +54,7 @@
                         <p class="p2">Tax: 0314757986</p>
                         <p class="p2 hidden-sm">&nbsp;</p>
                         <p class="p2">&nbsp;</p>
-                        <p class="p2">Địa chỉ dự án The Farose: 719 đường Tỉnh Lộ, xã Thuận Quý, huyện Hàm Thuận Nam, tỉnh Bình Thuận</p>
+                        <p class="p2">Địa chỉ dự án The Farosea: 719 đường Tỉnh Lộ, xã Thuận Quý, huyện Hàm Thuận Nam, tỉnh Bình Thuận</p>
                         <p class="p2">Hotline: <a href="tel:0911 522 221">0911 522 221</a> – <a
                                     href="tel:0911 522 220">0911 522 220</a></p>
                         <div class="row">
@@ -109,7 +109,6 @@
                         </div>
                         <p class="p2">&nbsp;</p>
                         <p class="p2">&nbsp;</p>
-                        <p class="p2">(*) Chúng tôi đặc biệt cẩn trọng trong việc chuẩn bị nội dung trên website này. Các thông tin/hình ảnh/bản vẽ chỉ thể hiện thông số kỹ thuật, tính thẩm mỹ và sự sáng tạo tại thời điểm được đăng tải và mang tính chất tham khảo, không đại diện chính xác cho điều kiện xây dựng thực tế và không mang tính đại diện hay là một phần của hợp đồng.</p>
                     </div>
                 </div>
             </div>
