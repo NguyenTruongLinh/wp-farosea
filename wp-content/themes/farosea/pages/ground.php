@@ -33,17 +33,17 @@ get_header();
         <div class="tit-mb"><img src="<?php echo get_template_directory_uri() ?>/images/tit-mb-1.png" alt="" class="wow fadeIn" data-wow-delay="0.4s" /></div>
         <div class="view-mb-1a wow fadeIn" data-wow-delay="0.4s">
             <ul>
-                <li class="m-1">
+                <li class="m-1 color-ch-a">
                     <span>Căn hộ loại A</span>
                     <p>Diện tích tim đường: 31.58 m2</p>
                     <p>Diện tích thông thủy: 28.96 m2</p>
                 </li>
-                <li class="m-2">
+                <li class="m-2 color-ch-f">
                     <span>CĂN HỘ LOẠI F (căn góc)</span>
                     <p>Diện tích tim đường: 40.52 m2</p>
                     <p>Diện tích thông thủy: 37.57 m2</p>
                 </li>
-                <li class="m-3">
+                <li class="m-3 color-ch-e">
                     <span>Căn hộ loại E (căn góc)</span>
                     <p>Diện tích tim đường: 44.57 m2</p>
                     <p>Diện tích thông thủy: 41.28 m2</p>
@@ -66,42 +66,42 @@ get_header();
         </div>
         <div class="view-mb-1a wow fadeIn" data-wow-delay="0.4s">
             <ul>
-                <li class="m-1">
+                <li class="m-1 color-ch-a">
                     <span>Căn hộ loại A</span>
                     <p>Diện tích tim đường: 31.58 m2</p>
                     <p>Diện tích thông thủy: 28.96 m2</p>
                 </li>
-                <li class="m-2">
+                <li class="m-2 color-ch-e">
                     <span>Căn hộ loại E (căn góc)</span>
                     <p>Diện tích tim đường: 44.57 m2</p>
                     <p>Diện tích thông thủy: 41.28 m2</p>
                 </li>
-                <li class="m-3">
+                <li class="m-3 color-ch-b">
                     <span>Căn hộ loại B</span>
                     <p>Diện tích tim đường: 31.98 m2</p>
                     <p>Diện tích thông thủy: 29.58 m2</p>
                 </li>
-                <li class="m-1">
+                <li class="m-1 color-ch-f">
                     <span>Căn hộ loại F (căn góc)</span>
                     <p>Diện tích tim đường: 40.52 m2</p>
                     <p>Diện tích thông thủy: 37.57 m2</p>
                 </li>
-                <li class="m-2">
+                <li class="m-2 color-ch-c">
                     <span>Căn hộ loại C</span>
                     <p>Diện tích tim đường: 31.56 m2</p>
                     <p>Diện tích thông thủy: 28.73 m2</p>
                 </li>
-                <li class="m-3">
+                <li class="m-3 color-ch-g">
                     <span>Căn hộ loại G (căn góc)</span>
                     <p>Diện tích tim đường: 43.19 m2</p>
                     <p>Diện tích thông thủy: 39.39 m2</p>
                 </li>
-                <li class="m-1">
+                <li class="m-1 color-ch-d">
                     <span>Căn hộ loại D</span>
                     <p>Diện tích tim đường: 39.08 m2</p>
                     <p>Diện tích thông thủy: 36.16 m2</p>
                 </li>
-                <li class="m-2">
+                <li class="m-2 color-ch-h">
                     <span>Căn hộ loại H (căn góc)</span>
                     <p>Diện tích tim đường: 43.26 m2</p>
                     <p>Diện tích thông thủy: 39.74 m2</p>

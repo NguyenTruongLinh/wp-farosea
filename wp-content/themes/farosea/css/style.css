@@ -669,9 +669,6 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
     z-index: 100;}
 .view-mb-1a ul { list-style: none; }
 .view-mb-1a ul li { width: calc(50% - 30px); float: left; padding: 0 15px 0 45px; margin: 30px 0 0 30px; }
-.view-mb-1a ul li.m-1 { background: url(../images/m-1.jpg) no-repeat center left; }
-.view-mb-1a ul li.m-2 { background: url(../images/m-2.jpg) no-repeat center left; }
-.view-mb-1a ul li.m-3 { background: url(../images/m-3.jpg) no-repeat center left; }
 .view-mb-1a ul li > span { width: 100%; float: left; color: white; text-transform: uppercase; font-family: "UTM-Aptima"; }
 .view-mb-1a ul li > p { width: 100%; float: left; color: white; font-family: "UTM-Aptima"; }
 
@@ -1446,4 +1443,40 @@ map:hover + .ground-img-hover {
     .logo-f > img {
         width: 70%;
     }
+}
+.view-mb-1a ul li {
+    position: relative;
+}
+.view-mb-1a ul li:before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.color-ch-a:before {
+    background: #FDC46B;
+}
+.color-ch-b:before {
+    background: #FDF499;
+}
+.color-ch-c:before {
+    background: #FFF6D8;
+}
+.color-ch-d:before {
+    background: #E6F1E1;
+}
+.color-ch-e:before {
+    background: #C3E3C2;
+}
+.color-ch-f:before {
+    background: #80B968;
+}
+.color-ch-g:before {
+    background: #F8D860;
+}
+.color-ch-h:before {
+    background: #D5E59D;
 }
