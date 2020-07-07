@@ -37,7 +37,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body class="preloading">
+<!--    <div class="load">-->
+<!--        <img src="--><?php //echo get_template_directory_uri(); ?><!--/images/loading-pages.gif">-->
+<!--    </div>-->
 
     <nav class="header">
         <div class="logo"><a href="<?php echo home_url() ?>"><img src="<?php echo get_template_directory_uri() ?>/images/logo.png" alt="LaPhong" /></a></div>

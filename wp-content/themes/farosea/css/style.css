@@ -432,7 +432,7 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
     .box-ct-1 { bottom: 30px; }
 }
 @media screen and (max-width: 991px){
-    .main-ct > img { position: absolute; top: 0; left: 0; height: 100%; z-index: -1; -o-object-fit: cover; object-fit: cover; -o-object-position: 50% 50%; object-position: 50% 50%;}
+    .main-ct > img { position: absolute; top: 0; left: 0; height: 100%; z-index: -1; -o-object-fit: cover; object-fit: cover; -o-object-position: 50% 50%; object-position: 30% 50%;}
     .box-ct, .box-ct-1, .box-ct-2 { padding: 30px; }
 
     .box-ct { position: unset; float: left; width: 100%; max-width: 100%;}
@@ -669,8 +669,17 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 
 @media screen and (max-width: 991px){
     .tit-mb { position: unset; margin-top: 30px; float: left; }
-    .view-mb-1a, .view-mb-1, .view-mb-2 { width: 100%; height: auto; position: unset; margin-top: 30px; float: left; padding: 30px;}
+    .view-mb-1a, .view-mb-1, .view-mb-2 { width: 100%; height: auto; position: unset; margin-top: 300px; float: left; padding: 30px;}
     .view-mb-1a ul li { width: calc(50% - 10px); margin: 30px 0 0 10px;}
+    .ground-img-hover {
+        bottom: 0;
+        height: 100%;
+    }
+    .ground-img-hover img {
+        height: 100%;
+        object-fit: cover;
+        object-position: 30% 50%;
+    }
 }
 
 .ct-news-page {
@@ -964,6 +973,32 @@ map:hover + .ground-img-hover {
 }
 .mb-popup .owl-theme .owl-nav button.owl-next {
     right: 61%;
+}
+@media (max-width: 767px) {
+    .mb-popup {
+        overflow: auto;
+    }
+    .mb-popup:before {
+        width: 0;
+        height: 0;
+    }
+    .mb-popup .owl-theme .owl-nav button.owl-next {
+        right: 0;
+    }
+    .mb-popup .col-md-7 {
+        margin-top: 30px;
+    }
+    .mb-popup .warning {
+        margin-top: 20px;
+    }
+    .mb-popup .description {
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .mb-popup .overlay {
+        width: 100%;
+        z-index: 1;
+    }
 }
 .popup-form {
     position: fixed;
@@ -1348,4 +1383,24 @@ map:hover + .ground-img-hover {
     background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, .7));
     background-color: unset;
     width: 50%;
+}
+.load {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999999;
+    width: 100%;
+    height: 100%;
+    background: #ffff;
+    overflow: hidden;
+}
+.load img {
+    max-width: 200px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }

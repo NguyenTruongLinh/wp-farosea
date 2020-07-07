@@ -25,13 +25,13 @@
         </li>
         <li><div class="g-doc"></div></li>
         <li class="facebook">
-            <a href="https://www.facebook.com/thefarosea/?eid=ARALZZhrjemtszL5NCZfoAcf3A1U-hUMwMjjCJ7ZgXNbGg9Nxarl08NZBuNHkAiUA0RvysLfP93TIiP0">
+            <a target="_blank" href="https://www.facebook.com/thefarosea/?eid=ARALZZhrjemtszL5NCZfoAcf3A1U-hUMwMjjCJ7ZgXNbGg9Nxarl08NZBuNHkAiUA0RvysLfP93TIiP0">
                 <img src="<?php echo get_template_directory_uri() ?>/images/facebookvienxanh.png">
             </a>
         </li>
         <li><div class="g-ngang"></div></li>
         <li class="youtube">
-            <a href="https://www.youtube.com/channel/UCjP_-TQIgn0CYJpO_kWVGtw">
+            <a target="_blank" href="https://www.youtube.com/channel/UCjP_-TQIgn0CYJpO_kWVGtw">
                 <img src="<?php echo get_template_directory_uri() ?>/images/youtubevienxanh.png">
             </a>
         </li>
@@ -183,6 +183,11 @@
 <!--</script>-->
 
 <script type="text/javascript">
+    $(window).on('load', function(event) {
+        $('body').removeClass('preloading');
+        $('.load').delay(1500).fadeOut('fast');
+    });
+
     $(document).on('keyup', '.form-group input, .form-group textarea', function () {
         if ($(this).val()) {
             $(this).closest('.form-group').addClass('input-valid');

@@ -112,6 +112,7 @@ get_header();
 
     <div class="mb-popup popup-mb-01">
         <a class="close_popup" onclick="closePopupGround('.popup-mb-01')"><img src="<?php echo get_template_directory_uri() ?>/images/close-popup.png" alt="close popup"></a>
+        <div class="overlay"></div>
         <div class="owl-carousel owl-theme owl-ground">
             <div class="container-full pt-30">
                 <div class="row">
@@ -198,6 +199,7 @@ get_header();
     </div>
     <div class="mb-popup popup-mb-02">
         <a class="close_popup" onclick="closePopupGround('.popup-mb-02')"><img src="<?php echo get_template_directory_uri() ?>/images/close-popup.png" alt="close popup"></a>
+        .overlay
         <div class="owl-carousel owl-theme owl-ground">
             <div class="container-full pt-30">
                 <div class="row">
