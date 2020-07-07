@@ -35,6 +35,12 @@
 
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/images/ico/favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <?php if (is_page_template('pages/contact.php')) : ?>
+        <style>
+            
+        </style>
+    <?php endif; ?>
+</head>
 </head>
 
 <body class="preloading">
