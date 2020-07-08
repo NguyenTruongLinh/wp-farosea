@@ -1526,3 +1526,7 @@ map:hover + .ground-img-hover {
     position: relative;
     z-index: 2;
 }
+#mb-01 > img,
+#mb-02 > img {
+    position: unset;
+}
