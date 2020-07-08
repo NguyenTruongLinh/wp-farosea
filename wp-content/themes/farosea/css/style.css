@@ -159,7 +159,7 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 .title-02 span { width: 100%; float: left; font-family: "UTM-Aptima"; font-size: 28px; text-transform: uppercase; margin-top: 20px;}
 
 @media screen and (max-width: 1080px){
-    .ShowBan-01 { min-height: auto;}
+    .ShowBan-01 { min-height: auto; padding: 60px 0}
     .opacity-w50 { background-color: rgba(255,255,255,.5);}
     .opacity-b50 { background-color: rgba(0,0,0,.5);}
     .title-01, .title-02 { margin-top: 0; }
@@ -462,7 +462,6 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
     .box-ct-1 { position: unset; float: left; width: 100%; max-width: 100%;}
     .box-ct-2 { position: unset; float: left; width: 100%; max-width: 100%;}
 
-    .opacity-b50 { z-index: -1; }
 }
 @media screen and (max-width: 767px){
     .main-ct > img {

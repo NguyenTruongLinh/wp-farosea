@@ -166,7 +166,7 @@ get_header();
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-1-4.png,
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-1-5.png, ">
                                                 <h5>Căn 1B</h5>
-                                                <div><h4>31.98 m2</h4></div>
+                                                <div><h4>31.58 m2</h4></div>
                                                 <img class="hover-slide-img" src="<?php echo get_template_directory_uri() ?>/vila/phoicanh-1-1.png">
                                             </a>
 
@@ -177,7 +177,7 @@ get_header();
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-2-4.png,
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-2-5.png, ">
                                                 <h5>Căn 26A</h5>
-                                                <div><h4>31.58 m2</h4></div>
+                                                <div><h4>43.26 m2</h4></div>
                                                 <img class="hover-slide-img" src="<?php echo get_template_directory_uri() ?>/vila/phoicanh-2-2.png">
                                             </a>
 
@@ -199,7 +199,7 @@ get_header();
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-4-4.png,
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-4-5.png, ">
                                                 <h5>Căn 16A</h5>
-                                                <div><h4>31.58 m2</h4></div>
+                                                <div><h4>31.98 m2</h4></div>
                                                 <img class="hover-slide-img" src="<?php echo get_template_directory_uri() ?>/vila/phoicanh-4-4.png">
                                             </a>
 
@@ -210,7 +210,7 @@ get_header();
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-5-4.png,
                                             <?php echo get_template_directory_uri() ?>/vila/phoicanh-5-5.png, ">
                                                 <h5>Căn 10A</h5>
-                                                <div><h4>31.58 m2</h4></div>
+                                                <div><h4>44.57 m2</h4></div>
                                                 <img class="hover-slide-img" src="<?php echo get_template_directory_uri() ?>/vila/phoicanh-5-5.png">
                                             </a>
                                         </div>

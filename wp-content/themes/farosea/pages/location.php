@@ -23,7 +23,7 @@ get_header();
             <div class="title-01 tt-vang-1 wow fadeInUp" data-wow-delay="0.5s">
                 <p>Tâm điểm</p>
                 <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/vang-vn.png" alt="" /></a>
-                <p>Kết nói danh lam</p>
+                <p>Kết nối danh lam</p>
             </div>
             <div class="ctent-01 ct-vang-1 wow fadeInUp" data-wow-delay="0.8s">
                 <p>Tọa lạc tại mặt tiền tuyến đường ven biển quốc gia ĐT719, The Farosea sở hữu địa thế phong thủy vô giá “Tọa sơn hướng hải”, mang đến không gian sống khoáng đạt, vượng khí dồi dào và tài lộc viên mãn</p>
