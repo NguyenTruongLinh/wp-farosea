@@ -186,6 +186,8 @@
         $('.load').delay(1500).fadeOut('fast');
     });
 
+    document.getElementById('video-viewport').play();
+
     $(document).on('keyup', '.form-group input, .form-group textarea', function () {
         if ($(this).val()) {
             $(this).closest('.form-group').addClass('input-valid');
