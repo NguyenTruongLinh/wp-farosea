@@ -161,7 +161,8 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 @media screen and (max-width: 1080px){
     .ShowBan-01 { min-height: auto; padding: 60px 0}
     .opacity-w50 { background-color: rgba(255,255,255,.5);}
-    .opacity-b50 { background-color: rgba(0,0,0,.5);}
+    .opacity-b50 {
+        z-index: -1; background-color: rgba(0,0,0,.5);}
     .title-01, .title-02 { margin-top: 0; }
     .title-01 p { font-size: 20px; }
     .title-02 p { font-size: 26px; text-align: center; }
@@ -465,7 +466,7 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 }
 @media screen and (max-width: 767px){
     .main-ct > img {
-        position: unset;
+        /*position: unset;*/
     }
 }
 
@@ -1517,4 +1518,11 @@ map:hover + .ground-img-hover {
 }
 .color-ch-h:before {
     background: #D5E59D;
+}
+#tongquan .opacity-b50 {
+    z-index: 1;
+}
+#tongquan .container-full {
+    position: relative;
+    z-index: 2;
 }
