@@ -1054,7 +1054,7 @@ map:hover + .ground-img-hover {
 }
 .popup-form {
     position: fixed;
-    max-width: 800px;
+    max-width: 600px;
     width: 100%;
     top: 50%;
     left: 50%;
@@ -1062,11 +1062,11 @@ map:hover + .ground-img-hover {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background: url('../images/bg-popup-form.png') no-repeat center / cover;
-    -webkit-box-shadow: 1px 4px 16px 2px rgba(255, 255, 255, .4);
-    box-shadow: 1px 4px 16px 2px rgba(255, 255, 255, .4);
-    padding: 30px;
+    padding: 50px;
     z-index: 10000;
     display: none;
+    box-shadow: 0 0 0 2000px rgba(0, 0, 0, .4);
+    border: 4px solid #ffc717;
 }
 .popup-form.show {
     display: block;
@@ -1112,37 +1112,39 @@ map:hover + .ground-img-hover {
     font-size: 30px;
     position: relative;
     z-index: 2;
-    color: #f79331;
+    color: #ffc717;
     font-weight: 600;
     text-align: center;
     margin-bottom: 40px;
-}
-.popup-form .title:before {
-    content: '';
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    width: 20%;
-    height: 2px;
-    background: #f79331;
+    line-height: normal;
 }
 .popup-form input,
 .popup-form select,
 .popup-form textarea {
-    border: 1px solid #f79331;
-    height: 3.125rem;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    height: 2.125rem;
     margin-left: 0;
     margin-top: 0;
     outline: none;
-    padding: .6875rem;
-    text-transform: uppercase;
+    padding: 0 .6875rem;
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     width: 100%;
+    background: transparent;
+    color: #fff;
+}
+.popup-form .form-group i {
+    font-style: normal;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+.popup-form input::placeholder {
+    color: #fff;
 }
 .popup-form textarea {
     height: 100px;
@@ -1155,6 +1157,7 @@ map:hover + .ground-img-hover {
 .popup-form .form-group {
     position: relative;
     z-index: 2;
+    margin-bottom: 25px;
 }
 .popup-form .form-group label {
     color: #777;
@@ -1173,26 +1176,11 @@ map:hover + .ground-img-hover {
     transition: all .2s ease-in-out;
     visibility: hidden;
 }
-.popup-form .form-group.input-valid label {
-    opacity: 1;
-    top: .375rem;
-    visibility: visible;
-    color: #006738;
-}
-.popup-form .form-group.input-valid input,
-.popup-form .form-group.input-valid textarea {
-    color: #000;
-    font-size: .9375rem;
-    font-weight: 600;
-    padding: 1.0625rem .5rem .0625rem;
-    text-transform: none;
-}
-.popup-form .form-group.input-valid textarea {
-    padding: 1.525rem .5rem .0625rem;
-}
 .popup-form .popup-submit {
-    padding: 10px 20px;
-    border: 1px solid #f79331;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    background: #ffc717;
+    border-radius: 4px;
     position: relative;
     z-index: 2;
     -webkit-transition: all .2s ease-in-out;
@@ -1201,8 +1189,11 @@ map:hover + .ground-img-hover {
     outline: none;
 }
 .popup-form .popup-submit:hover {
-    background: #f79331;
-    color: #fff;
+    background: #fff;
+    color: #ffc717;
+}
+.popup-form .btn-group-submit {
+    margin-top: 100px;
 }
 .popup-form .input-error {
     border: 1px solid red;

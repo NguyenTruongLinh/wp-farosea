@@ -116,13 +116,13 @@
     </div>
 </div>
 
-<div class="popup-form">
+<div class="popup-form show">
     <div class="overlay"></div>
     <a class="close-popup" onclick="closePopupGround('.popup-form')"><i class="fas fa-times"></i></a>
-    <h2 class="title">ĐĂNG KÝ THAM QUAN DỰ ÁN </h2>
+    <h2 class="title">ĐĂNG KÝ NHẬN <br> THÔNG TIN TƯ VẤN</h2>
     <form action="<?php echo admin_url('admin-ajax.php') ?>" method="POST">
         <div class="form-row">
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <div class="form-group">
                     <select name="gender" id="">
                         <option value="Ông">Ông</option>
@@ -130,28 +130,24 @@
                     </select>
                 </div>
             </div>
-            <div class="col-md-10">
+            <div class="col-md-9">
                 <div class="form-group">
-                    <label for="">Họ tên</label>
-                    <input name="first-name" type="text" placeholder="Họ tên">
+                    <input name="first-name" type="text" placeholder="Họ và tên">
+                    <i class="fas fa-user"></i>
                 </div>
             </div>
         </div>
         <div class="form-group">
-            <label for="">Điện thoại</label>
             <input name="phone-number" type="text" placeholder="Điện thoại">
+            <i class="fas fa-phone"></i>
         </div>
         <div class="form-group">
-            <label for="">Email</label>
             <input name="email" type="email" placeholder="Email">
-        </div>
-        <div class="form-group">
-            <label for="">Lời nhắn</label>
-            <textarea name="note" type="text" placeholder="Lời nhắn"></textarea>
+            <i class="fas fa-envelope"></i>
         </div>
         <p class="form-error"></p>
 
-        <div class="text-center">
+        <div class="text-center btn-group-submit">
             <button class="popup-submit">ĐĂNG KÝ</button>
         </div>
     </form>
