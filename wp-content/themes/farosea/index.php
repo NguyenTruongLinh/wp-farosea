@@ -29,9 +29,15 @@ get_header();
     </div>
 
     <div class="section hp-video wow fadeIn video-home-page" data-wow-delay="0.3s" id="video-sc">
+        <?php if (!wp_is_mobile()) : ?>
         <video id="video-viewport" poster="/vcommon/top/video/video_firstframe.jpg" autoplay loop muted fullscreen>
             <source src="<?php echo get_template_directory_uri() ?>/images/farosea.mp4" type="video/mp4">
         </video>
+        <?php else: ?>
+        <video id="video-viewport" poster="/vcommon/top/video/video_firstframe.jpg" autoplay loop muted fullscreen>
+            <source src="<?php echo get_template_directory_uri() ?>/images/farosea-mb.mp4" type="video/mp4">
+        </video>
+        <?php endif; ?>
         <div class="note-banner wow fadeInRight" data-wow-delay="0.5s">
             <img src="<?php echo get_template_directory_uri() ?>/images/note-banner.png" alt="" />
         </div>
