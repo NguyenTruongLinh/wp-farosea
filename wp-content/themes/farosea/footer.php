@@ -116,7 +116,7 @@
     </div>
 </div>
 
-<div class="popup-form show">
+<div class="popup-form">
     <div class="overlay"></div>
     <a class="close-popup" onclick="closePopupGround('.popup-form')"><i class="fas fa-times"></i></a>
     <h2 class="title">ĐĂNG KÝ NHẬN <br> THÔNG TIN TƯ VẤN</h2>
