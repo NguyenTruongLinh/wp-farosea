@@ -462,7 +462,9 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
     .box-ct { position: unset; float: left; width: 100%; max-width: 100%;}
     .box-ct-1 { position: unset; float: left; width: 100%; max-width: 100%;}
     .box-ct-2 { position: unset; float: left; width: 100%; max-width: 100%;}
-
+    .location-page .box-ct-2 {
+        padding-bottom: 30px;
+    }
 }
 @media screen and (max-width: 767px){
     .main-ct > img {
@@ -1481,6 +1483,9 @@ map:hover + .ground-img-hover {
     }
     .logo-f > img {
         width: 70%;
+    }
+    .location-page .opacity-b50 {
+        width: 0;
     }
 }
 .view-mb-1a ul li {
