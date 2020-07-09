@@ -16,7 +16,10 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
+    <meta property="og:url" content="thefarosea.vn" />
+    <meta property="og:title" content="The Farosea | Ngọn Hải đăng kiêu hãnh giữa thủ phủ Resort" />
+    <meta property="og:image" content="http://thefarosea.vn/wp-content/uploads/2020/07/Meta-image01.jpg" />
+    <meta property="og:description" content="Lấy cảm hứng từ vẻ đẹp hùng vĩ của ngọn hải đăng Kê Gà, The Farosea như một biểu tượng kiến trúc trường tồn giữa thiên nhiên hùng vĩ." />
 	<?php wp_head(); ?>
 
     <!-- Load Roboto font -->
@@ -37,7 +40,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <?php if (is_page_template('pages/contact.php')) : ?>
         <style>
-            
+
         </style>
     <?php endif; ?>
 </head>
