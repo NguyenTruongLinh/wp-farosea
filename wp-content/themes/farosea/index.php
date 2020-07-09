@@ -239,7 +239,7 @@ get_header();
                             <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/thongminh-vn.png" alt="" /></a>
                         </div>
                         <div class="ctent-01 ct-thongminh">
-                            <p>The Farosea, công nghệ tiên tiến được ứng dụng nhằm mang lại sự minh bạch thông tin, hiệu quả trong quản lý tài sản và thuận ích tối đa.</p>
+                            <p>The Farosea, công nghệ tiên tiến được ứng dụng nhằm mang lại sự minh bạch thông tin, hiệu quả trong quản lý tài sản và lợi ích tối đa.</p>
                             <p>&nbsp;</p>
                             <p>Với ứng dụng di động được thiết kế đặc biệt kết nối trực tiếp với chủ đầu tư, khách hàng có thể:</p>
                         </div>
