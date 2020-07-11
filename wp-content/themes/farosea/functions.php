@@ -263,8 +263,8 @@ add_action('wp_ajax_send_form_information', 'send_form_information');
 add_action('wp_ajax_nopriv_send_form_information', 'send_form_information');
 function send_form_information() {
     $subject = 'Thông tin đăng ký tham quan dự án từ ' . $_POST['last-name'] . ' ' .$_POST['first-name'];
-    $body = 'Họ tên: ' . $_POST['last-name'] . ' ' .$_POST['first-name'] .PHP_EOL. 'Email: ' .
-        $_POST['email'] .PHP_EOL. 'Số điện thoại: ' . $_POST['phone-number'] .PHP_EOL. 'Ghi chú: ' . $_POST['note']
+    $body = 'Họ tên: ' . $_POST['first-name'] .PHP_EOL. 'Email: ' .
+        $_POST['email'] .PHP_EOL. 'Số điện thoại: ' . $_POST['phone-number']
     ;
 
     wp_mail('taicd@fhouse.vn', $subject, $body);

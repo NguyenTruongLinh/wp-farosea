@@ -182,8 +182,6 @@
         $('.load').delay(1500).fadeOut('fast');
     });
 
-    document.getElementById('video-viewport').play();
-
     $(document).on('keyup', '.form-group input, .form-group textarea', function () {
         if ($(this).val()) {
             $(this).closest('.form-group').addClass('input-valid');
@@ -210,18 +208,15 @@
         let url = $(this).attr('action');
         let gender = $(this).find('select[name="gender"]');
         let firstName = $(this).find('input[name="first-name"]');
-        let lastName = $(this).find('input[name="last-name"]');
         let phoneNumber = $(this).find('input[name="phone-number"]');
         let email = $(this).find('input[name="email"]');
-        let note = $(this).find('textarea[name="note"]');
         let button = $('.popup-submit');
 
-        checkError(note);
         checkError(firstName);
         checkError(phoneNumber);
         checkError(email);
 
-        if (note.val() && firstName.val() && phoneNumber.val() && email.val()) {
+        if (firstName.val() && phoneNumber.val() && email.val()) {
             $.ajax({
                 type: 'POST',
                 dataType: 'json',
@@ -230,10 +225,8 @@
                     action: 'send_form_information',
                     'gender': gender.val(),
                     'first-name': firstName.val(),
-                    'last-name': lastName.val(),
                     'phone-number': phoneNumber.val(),
                     'email': email.val(),
-                    'note': note.val(),
                 },
                 beforeSend: function() {
                     button.text('Đang đăng ký...');
@@ -277,6 +270,26 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script type="text/javascript">
     $('.owl-library').owlCarousel({
+        center: true,
+        items:2,
+        loop:false,
+        margin:50,
+        dots: true,
+        nav: true,
+        navText: ['<img src="<?php echo get_template_directory_uri() ?>/images/button-previous.png" />', '<img src="<?php echo get_template_directory_uri() ?>/images/button-next.png" />'],
+        autoplay: true,
+        autoplayTimeout: 6000,
+        autoplayHoverPause: true,
+        responsive:{
+            0:{
+                items:1
+            },
+            767:{
+                items:2
+            },
+        }
+    });
+    $('#owl-images').owlCarousel({
         center: true,
         items:2,
         loop:false,

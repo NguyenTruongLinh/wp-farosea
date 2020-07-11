@@ -28,7 +28,7 @@ get_header();
         </ul>
     </div>
 
-    <div class="section hp-video wow fadeIn video-home-page" data-wow-delay="0.3s" id="video-sc">
+    <div class="section hp-video wow fadeIn video-home-page" data-wow-delay="1s" id="video-sc">
         <?php if (!wp_is_mobile()) : ?>
         <video id="video-viewport" poster="/vcommon/top/video/video_firstframe.jpg" autoplay="autoplay" playsinline loop muted fullscreen>
             <source src="<?php echo get_template_directory_uri() ?>/images/farosea.mp4" type="video/mp4">
@@ -38,36 +38,36 @@ get_header();
             <source src="<?php echo get_template_directory_uri() ?>/images/farosea-mb.mp4" type="video/mp4">
         </video>
         <?php endif; ?>
-        <div class="note-banner wow fadeInRight" data-wow-delay="0.5s">
+        <div class="note-banner wow fadeInRight" data-wow-delay="1s">
             <img src="<?php echo get_template_directory_uri() ?>/images/note-banner.png" alt="" />
         </div>
     </div>
 
     <div class="section main-05" id="kieuhanh">
         <div class="ShowBan-kieuhanh">
-            <div class="title-01 tt-kieuhanh wow fadeInUp" data-wow-delay="0.3s">
+            <div class="title-01 tt-kieuhanh wow fadeInUp" data-wow-delay="1s">
                 <p>Ngọn hải đăng</p>
                 <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/kieuhanh-vn.png" alt="" /></a>
                 <p>GIỮA THỦ PHỦ RESORT MỚI</p>
             </div>
-            <div class="ctent-01 ct-kieuhanh wow fadeInUp" data-wow-delay="0.5s">
+            <div class="ctent-01 ct-kieuhanh wow fadeInUp" data-wow-delay="1s">
                 <p>Lấy cảm hứng từ vẻ đẹp hùng vĩ của ngọn hải đăng Kê Gà, The Farosea như một biểu tượng kiến trúc trường tồn giữa thiên nhiên hùng vĩ. Tại The Farosea, mỗi sớm mai thức dậy, du khách mới ngắm trọn vẹn ánh dương rạng ngời, vẻ đẹp thiên nhiên tuyệt mỹ của vịnh Kê Gà.</p>
-                <a href="<?php echo home_url()?>/cau-chuyen-du-an">Tìm hiểu thêm</a>
+                <a class="looking-info" href="<?php echo home_url()?>/cau-chuyen-du-an">Tìm hiểu thêm</a>
             </div>
         </div>
-        <div class="img-kieuhanh wow fadeInRight" data-wow-delay="0.4s">
+        <div class="img-kieuhanh wow fadeInLeft" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: fadeInLeft;">
             <img src="<?php echo get_template_directory_uri() ?>/images/ban1-1.jpg" />
         </div>
     </div>
 
     <div class="section main-01" id="tongquan">
         <div class="ban1">
-            <div class="ShowBan-01 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="ShowBan-01 wow fadeInUp" data-wow-delay="1s">
                 <img class="img-position-a" src="<?php echo get_template_directory_uri() ?>/images/ban2.jpg" alt="">
                 <div class="opacity-b50"></div>
                 <div class="container-full">
                     <div class="row">
-                        <div class="col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="1s">
                             <div class="title-02 tt-duan">
                                 <p>GIỚI THIỆU DỰ ÁN</p>
                                 <span>TỔNG QUAN DỰ ÁN</span>
@@ -76,7 +76,7 @@ get_header();
                                 <p>The Farosea nằm trong quần thể du lịch nghỉ dưỡng hiện hữu thu hút nhiều du khách.</p>
                                 <p>&nbsp;</p>
                                 <p>Dự án đươc quy hoạch theo phong cách phóng khoáng, hiện đại. Bên cạnh đó, bãi tắm hoàn toàn riêng tư, khép kín chỉ dành phục vụ cho cư dân và du khách nội khu là đặc quyền mà The Farosea dành tặng những chủ nhân tương lai.</p>
-                                <a class="ct-title" href="<?php echo home_url()?>/gioi-thieu">Tìm hiểu thêm</a>
+                                <a class="ct-title looking-info" href="<?php echo home_url()?>/gioi-thieu">Tìm hiểu thêm</a>
                             </div>
                         </div>
                     </div>
@@ -87,14 +87,14 @@ get_header();
 
     <div class="section main-04" id="vang">
         <div class="ShowBan-tongquan">
-            <div class="title-01 tt-vang wow fadeInUp" data-wow-delay="0.3s">
+            <div class="title-01 tt-vang wow fadeInUp" data-wow-delay="1s">
                 <p>Tâm điểm</p>
                 <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/vang-vn.png" alt="" /></a>
                 <p>Kết nối danh lam</p>
             </div>
-            <div class="ctent-01 ct-vang wow fadeInUp" data-wow-delay="0.5s">
+            <div class="ctent-01 ct-vang wow fadeInUp" data-wow-delay="1s">
                 <p>The Farosea tọa lạc ngay mặt tiền ĐT 719 – tuyến đường ven biển Quốc gia đẹp nhất Việt Nam. Đặc biệt, với vị trí nằm trong tâm điểm vùng du lịch và giữa các quần thể nghỉ dưỡng cao cấp, The Farosea chính là “điểm nối liên hoàn” các thắng cảnh du lịch nổi tiếng của Kê Gà và Bình Thuận. </p>
-                <a class="ct-title" href="<?php echo home_url()?>/vi-tri">Tìm hiểu thêm</a>
+                <a class="ct-title looking-info" href="<?php echo home_url()?>/vi-tri">Tìm hiểu thêm</a>
             </div>
         </div>
         <video id="video-viewport" poster="/vcommon/top/video/video_firstframe.jpg" autoplay="autoplay" playsinline loop muted fullscreen>
@@ -107,10 +107,10 @@ get_header();
             <div class="container-full">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="pks1 wow fadeInLeft" data-wow-delay="0.5s">
+                        <div class="pks1 wow fadeInLeft" data-wow-delay="1s">
                             <img src="<?php echo get_template_directory_uri() ?>/images/pk1.png">
                         </div>
-                        <div class="pks2 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="pks2 wow fadeInUp" data-wow-delay="1s">
                             <div class="title-01 tt-thanghoa">
                                 <p>Tiện ích hoàn mỹ</p>
                                 <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/thanghoa-vn.png" alt="" /></a>
@@ -120,7 +120,7 @@ get_header();
                                 <p>The Farosea được xây dựng trong tổ hợp nghỉ dưỡng ven biển đẳng cấp, dành cho chủ nhân xứng tầm.</p>
                                 <p>&nbsp;</p>
                                 <p>Trọn vẹn tận hưởng kỳ nghỉ dưỡng trong không gian xanh mát của vùng biển hài hòa và được trải nghiệm các dịch vụ chăm sóc, giải trí theo tiêu chuẩn 5 sao.</p>
-                                <a href="<?php echo home_url() ?>/tien-ich">Tìm hiểu thêm</a>
+                                <a class="looking-info" href="<?php echo home_url() ?>/tien-ich">Tìm hiểu thêm</a>
                             </div>
                             <div class="pks">
                                 <img src="<?php echo get_template_directory_uri() ?>/images/pk2.png" style="width: 100%; float: left; margin-top: 20px;">
@@ -135,7 +135,7 @@ get_header();
 
     <div class="section main-01" id="xanh">
         <div class="ban1" data-stellar-background-ratio="0.5" style="background-image: url(<?php echo get_template_directory_uri() ?>/images/ban5.jpg);">
-            <div class="ShowBan-04 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="ShowBan-04 wow fadeInUp" data-wow-delay="1s">
                 <div class="opacity-b50"></div>
                 <div class="container-full">
                     <div class="row">
@@ -229,11 +229,11 @@ get_header();
             <div class="container-full">
                 <div class="row">
                     <div class="col-md-7 col-sm-12 col-xs-12">
-                        <div class="ig-thongminh wow fadeInLeft" data-wow-delay="0.5s">
+                        <div class="ig-thongminh wow fadeInLeft" data-wow-delay="1s">
                             <img src="<?php echo get_template_directory_uri() ?>/images/app.png">
                         </div>
                     </div>
-                    <div class="col-md-5 col-sm-12 col-xs-12 wow fadeInRight" data-wow-delay="0.5s">
+                    <div class="col-md-5 col-sm-12 col-xs-12 wow fadeInRight" data-wow-delay="1s">
                         <div class="title-01 tt-thongminh">
                             <p>Quản lý tài sản</p>
                             <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/thongminh-vn.png" alt="" /></a>
@@ -277,7 +277,7 @@ get_header();
                 <div class="container-footer">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="title-03 wow fadeInDown" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
+                            <div class="title-03 wow fadeInDown" data-wow-delay="1s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
                                 <span>Tin tức</span>
                             </div>
                         </div>
@@ -285,7 +285,7 @@ get_header();
                             <div class="news-home">
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12 col-xs-12">
-                                        <div class="boxnews-h boxnews-h1 wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                                        <div class="boxnews-h boxnews-h1 wow fadeInLeft" data-wow-delay="1s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
                                             <a class="pic" href="<?php echo get_permalink($recent_posts[0]['ID']) ?>">
                                                 <img src="<?php echo get_the_post_thumbnail_url($recent_posts[0]['ID']) ?>" alt="<?php echo $recent_posts[0]['post_title'] ?>">
                                                 <div class="news-newest">New</div>
@@ -300,7 +300,7 @@ get_header();
 
                                     <div class="col-md-6 col-sm-12 col-xs-12">
                                         <?php if (count($recent_posts) >= 2) : ?>
-                                            <div class="boxnews-h boxnews-h2 wow fadeInRight" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                                            <div class="boxnews-h boxnews-h2 wow fadeInRight" data-wow-delay="1s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
                                                 <a class="pic" href="<?php echo get_permalink($recent_posts[1]['ID']) ?>">
                                                     <img src="<?php echo get_the_post_thumbnail_url($recent_posts[1]['ID']) ?>" alt="<?php echo $recent_posts[1]['post_title'] ?>">
                                                 </a>
@@ -313,7 +313,7 @@ get_header();
                                         <?php endif; ?>
 
                                         <?php if (count($recent_posts) >= 3) : ?>
-                                            <div class="boxnews-h boxnews-h3 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                            <div class="boxnews-h boxnews-h3 wow fadeInUp" data-wow-delay="1s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                                                 <a class="pic" href="<?php echo get_permalink($recent_posts[2]['ID']) ?>">
                                                     <img src="<?php echo get_the_post_thumbnail_url($recent_posts[2]['ID']) ?>" alt="<?php echo $recent_posts[2]['post_title'] ?>">
                                                 </a>

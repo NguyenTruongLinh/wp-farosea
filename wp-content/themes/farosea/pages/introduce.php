@@ -15,12 +15,12 @@ get_header();
     <div class="bg-header"></div>
 
     <div class="main-ct">
-        <img src="<?php echo get_template_directory_uri() ?>/images/pic-gt-1.jpg" alt="" class="wow fadeIn" data-wow-delay="0.3s" />
+        <img src="<?php echo get_template_directory_uri() ?>/images/pic-gt-1.jpg" alt="" class="wow fadeIn" data-wow-delay="1s" />
         <div class="box-gt-1">
-            <div class="title-04 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="title-04 wow fadeInUp" data-wow-delay="1s">
                 <p>Tổng quan dự án</p>
             </div>
-            <div class="ctent-04 wow fadeInRight" data-wow-delay="0.8s">
+            <div class="ctent-04 wow fadeInRight" data-wow-delay="1s">
                 <ul>
                     <li class="tqda-01">
                         <p>Tên dự án: The Farosea</p>
@@ -42,10 +42,10 @@ get_header();
         </div>
     </div>
     <div class="matbangxaydung">
-        <div class="title-05 wow fadeInUp" data-wow-delay="0.5s">
+        <div class="title-05 wow fadeInUp" data-wow-delay="1s">
             <p>Mặt bằng dự án</p>
         </div>
-        <img src="<?php echo get_template_directory_uri() ?>/images/matbangxaydung.jpg" alt="" class="wow fadeIn" data-wow-delay="0.3s" />
+        <img src="<?php echo get_template_directory_uri() ?>/images/matbangxaydung.jpg" alt="" class="wow fadeIn" data-wow-delay="1s" />
     </div>
 
 <?php

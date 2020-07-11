@@ -18,7 +18,7 @@ get_header();
         <div class="container-full">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="title-06 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="title-06 wow fadeInUp" data-wow-delay="1s">
                         <p>Tiện ích</p>
                     </div>
                 </div>
@@ -26,11 +26,11 @@ get_header();
         </div>
         <div class="index-tich-1">
             <div class="tich-left">
-                <div class="title-01 tt-5sao wow fadeInUp" data-wow-delay="0.5s">
+                <div class="title-01 tt-5sao wow fadeInUp" data-wow-delay="1s">
                     <p>Đẳng cấp </p>
                     <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/5sao-vn.png" alt="" /></a>
                 </div>
-                <div class="ctent-01 ct-5sao wow fadeInUp" data-wow-delay="0.8s">
+                <div class="ctent-01 ct-5sao wow fadeInUp" data-wow-delay="1s">
                     <p>Các tiện ích hiện đại và đẳng cấp tại The Farosea mang đến cho du khách những trải nghiệm khó quên, nơi mỗi giác quan được nâng niu và chiều chuộng, nơi mỗi phút giây trôi qua là sự bừng sáng của niềm vui như ánh bình minh rực rỡ rạng ngời.</p>
                 </div>
             </div>
@@ -67,11 +67,11 @@ get_header();
         <div class="container-full">
             <div class="row">
                 <div class="col-md-4 col-sm-4 col-xs-12">
-                    <div class="title-01 tt-traitim wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="title-01 tt-traitim wow fadeInUp" data-wow-delay="1s">
                         <p>Dịch vụ từ</p>
                         <a href="#"><img src="<?php echo get_template_directory_uri() ?>/images/traitim-vn.png" alt="" /></a>
                     </div>
-                    <div class="ctent-01 ct-traitim wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="ctent-01 ct-traitim wow fadeInUp" data-wow-delay="1s">
                         <p>Tại The Farosea, mỗi du khách đều có thể cảm nhận sự thoải mái, tiện nghi như chính ngôi nhà của mình với đội ngũ nhân viên phục vụ tận tình, chuyên nghiệp cùng các dịch vụ đẳng cấp 5 sao đến từ các thương hiệu uy tín quốc tế. </p>
                     </div>
                 </div>

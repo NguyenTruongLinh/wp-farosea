@@ -275,7 +275,10 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 
 .boxnews-h a.tit { width: 100%; float: left; color: white; font-size: 24px; background: url(../images/icon-1-news.jpg) no-repeat left bottom; margin-top: 10px; }
 .boxnews-h span { float: left; color: white; font-style: italic; margin-top: 16px; }
-.boxnews-h a.view { width: 100%; float: left; float: left; color: #ffc216; font-size: 20px; font-style: italic; margin-top: 20px; }
+.boxnews-h a.view { transition: all .3s ease-in-out; width: 100%; float: left; color: #ffc216; font-size: 20px; font-style: italic; margin-top: 20px; }
+.boxnews-h a.view:hover {
+    color: #fff;
+}
 
 .boxnews-h1 .tit-view, .boxnews-h3 .tit-view { width: 70%; float: left; }
 .boxnews-h2 .tit-view { width: calc(50% - 30px); float: right; }
@@ -287,7 +290,15 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
 .boxnews-h1 > a.pic { width: 100%; }
 .boxnews-h2 > a.pic { width: 50%; }
 .boxnews-h3 > a.pic { width: 75%; }
-
+.boxnews-h > a.pic {
+    overflow: hidden;
+}
+.boxnews-h > a.pic img {
+    transition: all .3s ease-in-out;
+}
+.boxnews-h > a.pic img:hover {
+    transform: scale(1.1);
+}
 .boxnews-h1 span, .boxnews-h3 span { width: 30%; float: right; text-align: right; }
 .boxnews-h2 span { width: calc(50% - 30px); float: right;}
 
@@ -756,10 +767,24 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
     font-size: 16px;
     text-transform: uppercase;
     color: #f79331;
+    transition: all .3s ease-in-out;
+}
+.ct-news-page .view_news:hover,
+.related-news .view_news:hover {
+    color: #0f7c3e;
 }
 .ct-news-page .ct_post,
 .related-news .ct_post {
     margin-bottom: 30px;
+}
+.ct_post .img-news {
+    overflow: hidden;
+}
+.ct_post .img-news img {
+    transition: all .3s ease-in-out;
+}
+.ct_post .img-news img:hover {
+    transform: scale(1.1);
 }
 .post-wrapper {
     margin: 0 20px 20px;
@@ -1139,6 +1164,9 @@ map:hover + .ground-img-hover {
     width: 100%;
     background: transparent;
     color: #fff;
+}
+.popup-form select option {
+    background: #2C3542;
 }
 .popup-form .form-group i {
     font-style: normal;
@@ -1536,4 +1564,17 @@ map:hover + .ground-img-hover {
 #mb-01 > img,
 #mb-02 > img {
     position: unset;
+}
+.owl-theme .owl-nav button {
+    opacity: .6;
+    transition: opacity .3s;
+}
+.owl-theme .owl-nav button:hover {
+    opacity: 1;
+}
+.looking-info {
+    transition: all .3s ease-in-out;
+}
+.looking-info:hover {
+    color: #fff;
 }

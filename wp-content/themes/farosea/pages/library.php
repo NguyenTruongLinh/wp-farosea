@@ -26,7 +26,7 @@ get_header();
         </div>
         <div class="top-301">
             <div class="listpros1">
-                <div class="owl-carousel owl-theme owl-library">
+                <div class="owl-carousel owl-theme owl-library" id="owl-images">
                     <?php $getposts = new WP_query(); $getposts->query('post_status=publish&post_type=gallery'); ?>
                     <?php global $wp_query; $wp_query->in_the_loop = true; ?>
                     <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
@@ -57,7 +57,7 @@ get_header();
         </div>
         <div class="top-301">
             <div class="listpros1">
-                <div id="video-gallery" class="owl-carousel owl-theme owl-library">
+                <div id="video-gallery" class="owl-carousel owl-theme owl-library" id="owl-videos">
                     <?php $getposts = new WP_query(); $getposts->query('post_status=publish&post_type=videos'); ?>
                     <?php global $wp_query; $wp_query->in_the_loop = true; ?>
                     <?php while ($getposts->have_posts()) : $getposts->the_post(); ?>

@@ -22,7 +22,7 @@ get_header();
     <div class="bg-header"></div>
 
     <div class="main-ct" id="mb-01">
-        <img src="<?php echo get_template_directory_uri() ?>/images/bg-mb-1.jpg" alt="" class="wow fadeIn" data-wow-delay="0.3s" />
+        <img src="<?php echo get_template_directory_uri() ?>/images/bg-mb-1.jpg" alt="" class="wow fadeIn" data-wow-delay="1s" />
         <map name="image-map" onclick="openPopupGround('.popup-mb-01')">
             <area target="" alt="" title="" href="javascript:void(0);" coords="371,322,449,251,530,251,523,271,1136,283,1139,982,1093,1013,901,1016,842,960,842,853,740,852,708,881,659,872,635,828,515,757,488,753,393,702,362,663" shape="poly">
         </map>
@@ -30,8 +30,8 @@ get_header();
             <img class="usemap" usemap="#image-map" src="<?php echo get_template_directory_uri() ?>/images/mat-bang-1.png" alt="" />
         </div>
         <div class="opacity-b50"></div>
-        <div class="tit-mb"><img src="<?php echo get_template_directory_uri() ?>/images/tit-mb-1.png" alt="" class="wow fadeIn" data-wow-delay="0.4s" /></div>
-        <div class="view-mb-1a wow fadeIn" data-wow-delay="0.4s">
+        <div class="tit-mb"><img src="<?php echo get_template_directory_uri() ?>/images/tit-mb-1.png" alt="" class="wow fadeIn" data-wow-delay="1s" /></div>
+        <div class="view-mb-1a wow fadeIn" data-wow-delay="1s">
             <ul>
                 <li class="m-1 color-ch-a">
                     <span>Căn hộ loại A</span>
@@ -53,7 +53,7 @@ get_header();
     </div>
 
     <div class="main-ct" id="mb-02">
-        <img src="<?php echo get_template_directory_uri() ?>/images/bg-mb-2.jpg" alt="" class="wow fadeIn" data-wow-delay="0.3s" />
+        <img src="<?php echo get_template_directory_uri() ?>/images/bg-mb-2.jpg" alt="" class="wow fadeIn" data-wow-delay="1s" />
         <map name="image-map-2" onclick="openPopupGround('.popup-mb-02')">
             <area target="" alt="" title="" href="#" coords="350,346,416,280,505,287,498,302,1112,314,1117,979,1086,1026,876,1031,820,994,818,882,717,879,686,902,632,896,611,850,496,784,464,785,376,731,342,680" shape="poly">
         </map>
@@ -62,9 +62,9 @@ get_header();
         </div>
         <div class="opacity-b50"></div>
         <div class="tit-mb">
-            <img src="<?php echo get_template_directory_uri() ?>/images/tit-mb-2.png" alt="" class="wow fadeIn" data-wow-delay="0.4s" />
+            <img src="<?php echo get_template_directory_uri() ?>/images/tit-mb-2.png" alt="" class="wow fadeIn" data-wow-delay="1s" />
         </div>
-        <div class="view-mb-1a wow fadeIn" data-wow-delay="0.4s">
+        <div class="view-mb-1a wow fadeIn" data-wow-delay="1s">
             <ul>
                 <li class="m-1 color-ch-a">
                     <span>Căn hộ loại A</span>

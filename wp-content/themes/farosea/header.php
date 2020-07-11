@@ -40,7 +40,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <?php if (is_page_template('pages/contact.php')) : ?>
         <style>
-
+            @media (min-height: 600px) {
+                #footer-sc {
+                    height: 100vh;
+                    position: fixed;
+                }
+                #footer-sc .ShowBan-05 {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    padding-top: 300px;
+                    overflow: auto;
+                }
+            }
         </style>
     <?php endif; ?>
 </head>
