@@ -1578,3 +1578,13 @@ map:hover + .ground-img-hover {
 .looking-info:hover {
     color: #fff;
 }
+.owl-library .boxpros1 {
+    display: block;
+    overflow: hidden;
+}
+.owl-library .boxpros1 img {
+    transition: all .3s ease-in-out;
+}
+.owl-library .boxpros1:hover img {
+    transform: scale(1.1);
+}
