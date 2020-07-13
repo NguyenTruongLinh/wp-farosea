@@ -21,18 +21,21 @@
         <li>
             <a class="open-popup-form" href="javascript:void(0);" onclick="openPopupGround('.popup-form')">
                 <img src="<?php echo get_template_directory_uri() ?>/images/nhantin.png">
+                <img class="hover" src="<?php echo get_template_directory_uri() ?>/images/nhan-tin-hover.png">
             </a>
         </li>
         <li><div class="g-doc"></div></li>
         <li class="facebook">
             <a target="_blank" href="https://www.facebook.com/thefarosea/?eid=ARALZZhrjemtszL5NCZfoAcf3A1U-hUMwMjjCJ7ZgXNbGg9Nxarl08NZBuNHkAiUA0RvysLfP93TIiP0">
                 <img src="<?php echo get_template_directory_uri() ?>/images/facebookvienxanh.png">
+                <img class="hover" src="<?php echo get_template_directory_uri() ?>/images/facebook-hover.png">
             </a>
         </li>
         <li><div class="g-ngang"></div></li>
         <li class="youtube">
             <a target="_blank" href="https://www.youtube.com/channel/UCjP_-TQIgn0CYJpO_kWVGtw">
                 <img src="<?php echo get_template_directory_uri() ?>/images/youtubevienxanh.png">
+                <img class="hover" src="<?php echo get_template_directory_uri() ?>/images/youtube-hover.png">
             </a>
         </li>
     </ul>

@@ -88,6 +88,15 @@ nav.navShadow { height: 60px; border: none; background-color: rgba(255, 255, 255
     z-index: 999;}
 .follow-menu ul { list-style: none; }
 .follow-menu ul li { width: 100%; float: left; padding: 5px 0; }
+.follow-menu ul li .hover {
+    display: none;
+}
+.follow-menu ul li:hover img {
+    display: none;
+}
+.follow-menu ul li:hover .hover {
+    display: block;
+}
 .follow-menu ul li a img { display: block; margin: 0 auto; }
 .g-doc { width: 3px; height: 45px; background: white; margin: 0 auto; border: 1px solid #2e7444;}
 .g-ngang { width: 45px; height: 3px; background: white; margin: 0 auto; border: 1px solid #2e7444;}
