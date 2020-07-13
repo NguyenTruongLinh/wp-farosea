@@ -153,6 +153,11 @@
     </form>
 </div>
 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NS5DJ57"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
 <!--<script id="bx24_form_button" data-skip-moving="true">-->
